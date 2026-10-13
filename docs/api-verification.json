@@ -1,0 +1,342 @@
+{
+  "checkedAt": "2026-10-13T06:11:31.105Z",
+  "sources": {
+    "basic": {
+      "success": true,
+      "count": 203,
+      "fields": [
+        "unitName",
+        "pageNo",
+        "numOfRows",
+        "unitCode",
+        "routeName",
+        "routeNo",
+        "xValue",
+        "yValue",
+        "stdRestCd",
+        "serviceAreaCode"
+      ],
+      "sample": [
+        {
+          "id": "000001:001:A00001:0",
+          "code": "000001",
+          "unitCode": "001",
+          "serviceAreaCode": "A00001",
+          "name": "서울만남(부산)휴게소",
+          "routeCode": "0010",
+          "routeName": "경부선",
+          "direction": null,
+          "coordinates": null,
+          "rawCoordinates": {
+            "x": "127.042514",
+            "y": "37.459939"
+          },
+          "ambiguousCode": false
+        },
+        {
+          "id": "000003:002:A00002:1",
+          "code": "000003",
+          "unitCode": "002",
+          "serviceAreaCode": "A00002",
+          "name": "죽전(서울)휴게소",
+          "routeCode": "0010",
+          "routeName": "경부선",
+          "direction": null,
+          "coordinates": null,
+          "rawCoordinates": {
+            "x": "127.104397",
+            "y": "37.332583"
+          },
+          "ambiguousCode": false
+        }
+      ]
+    },
+    "menus": {
+      "success": true,
+      "count": 7255,
+      "fields": [
+        "pageNo",
+        "numOfRows",
+        "stdRestCd",
+        "routeCd",
+        "svarAddr",
+        "restCd",
+        "routeNm",
+        "stdRestNm",
+        "lsttmAltrUser",
+        "lsttmAltrDttm",
+        "seq",
+        "foodNm",
+        "foodCost",
+        "etc",
+        "recommendyn",
+        "seasonMenu",
+        "bestfoodyn",
+        "premiumyn",
+        "app",
+        "foodMaterial",
+        "lastId",
+        "lastDtime"
+      ],
+      "sample": [
+        {
+          "code": "000001",
+          "restName": "서울만남(부산)휴게소",
+          "routeName": "경부선",
+          "id": "000001:272:농심어묵우동",
+          "name": "농심어묵우동",
+          "price": 7000,
+          "description": "부산어묵꼬치를 첨가하여 우동만의 시원하고 담백한 맛에 어묵의 식감과 향을 함께 즐길 수 있는 우동.",
+          "ingredients": "냉동면 1ea\r\n육수 435ml\r\n부산어묵 1ea\r\n대파 10g\r\n치커리 10g",
+          "recommended": false,
+          "best": false,
+          "premium": false,
+          "season": "사계절",
+          "address": "서울 서초구 원지동10-16",
+          "updatedAt": "2026-10-13"
+        },
+        {
+          "code": "000001",
+          "restName": "서울만남(부산)휴게소",
+          "routeName": "경부선",
+          "id": "000001:273:농심유부우동",
+          "name": "농심유부우동",
+          "price": 6500,
+          "description": "오동통한 면발과 시원하고 깔끔한 육수에 유부를 첨가하여 만든 대표적인 우동입니다.",
+          "ingredients": "",
+          "recommended": false,
+          "best": false,
+          "premium": false,
+          "season": "사계절",
+          "address": "서울 서초구 원지동10-16",
+          "updatedAt": "2026-10-13"
+        }
+      ]
+    },
+    "oilFacilities": {
+      "success": true,
+      "count": 432,
+      "fields": [
+        "stdRestCd",
+        "stdRestNm",
+        "stime",
+        "etime",
+        "redId",
+        "redDtime",
+        "lsttmAltrUser",
+        "lsttmAltrDttm",
+        "svarAddr",
+        "routeCd",
+        "routeNm",
+        "psCode",
+        "psName",
+        "psDesc"
+      ],
+      "sample": [
+        {
+          "code": "000002",
+          "restName": "서울만남(부산)주유소",
+          "name": "쉼터",
+          "description": "고객쉼터-안마기,컴퓨터,팩스,혈압계,신장및체중계,핸드폰충전기,핸드폰소독기",
+          "startSection": "00:00",
+          "endSection": "24:00",
+          "updatedAt": "2026-10-13"
+        },
+        {
+          "code": "000002",
+          "restName": "서울만남(부산)주유소",
+          "name": "기타",
+          "description": "냉온정수기, 인터넷",
+          "startSection": "00:00",
+          "endSection": "24:00",
+          "updatedAt": "2026-10-13"
+        }
+      ]
+    },
+    "statistics": {
+      "success": true,
+      "count": 207,
+      "fields": [
+        "순번",
+        "노선명",
+        "휴게소명",
+        "소재지",
+        "1일 이용객수(17년)",
+        "1일 차량 통행량(24년)"
+      ],
+      "sample": [
+        {
+          "id": "1",
+          "name": "건천(부산)",
+          "routeName": "경부선",
+          "address": "경북 경주 건천 경부고속도로 77건천(부산)휴게소",
+          "visitors": 4165,
+          "traffic": 2803,
+          "visitorYear": 2017,
+          "trafficYear": 2024,
+          "unit": "명/일",
+          "trafficUnit": "대/일"
+        },
+        {
+          "id": "2",
+          "name": "건천(서울)",
+          "routeName": "경부선",
+          "address": "경북 경주 건천 경부고속도로 76건천(서울)휴게소",
+          "visitors": 4819,
+          "traffic": 2641,
+          "visitorYear": 2017,
+          "trafficYear": 2024,
+          "unit": "명/일",
+          "trafficUnit": "대/일"
+        }
+      ]
+    },
+    "places": {
+      "success": true,
+      "count": 5
+    },
+    "route": {
+      "success": true,
+      "distance": 398296,
+      "duration": 19212,
+      "roadCount": 1097,
+      "matchingStatus": "unverified"
+    },
+    "brands": {
+      "success": true,
+      "count": 699,
+      "fields": [
+        "pageNo",
+        "numOfRows",
+        "stdRestCd",
+        "stime",
+        "routeCd",
+        "svarAddr",
+        "routeNm",
+        "stdRestNm",
+        "brdCode",
+        "brdName",
+        "brdDesc",
+        "etime",
+        "redId",
+        "redDtime",
+        "lsttmAltrUser",
+        "lsttmAltrDttm"
+      ]
+    },
+    "mapPoints": {
+      "success": true,
+      "count": 130,
+      "total": 203,
+      "source": "한국도로공사 주소 / 카카오 Local"
+    }
+  },
+  "limitations": [
+    "휴게소 X/Y 좌표계는 공식 확인 전 미검증 상태입니다.",
+    "진입 방향·접속 도로 자료가 없어 경로상 휴게소를 확정하지 않습니다.",
+    "ODCLOUD 통계에는 stdRestCd가 없어 다른 자료와 자동 결합하지 않습니다."
+  ],
+  "duplicateBasicCodes": 0,
+  "sampleJoins": [
+    {
+      "code": "000001",
+      "name": "서울만남(부산)휴게소",
+      "menus": 54,
+      "brands": 2,
+      "oilFacilities": 0,
+      "sources": {
+        "menus": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:35.121Z",
+          "message": ""
+        },
+        "brands": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:35.123Z",
+          "message": ""
+        },
+        "oilFacilities": {
+          "status": "empty",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:35.126Z",
+          "message": ""
+        }
+      }
+    },
+    {
+      "code": "000003",
+      "name": "죽전(서울)휴게소",
+      "menus": 19,
+      "brands": 3,
+      "oilFacilities": 0,
+      "sources": {
+        "menus": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:39.095Z",
+          "message": ""
+        },
+        "oilFacilities": {
+          "status": "empty",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:39.098Z",
+          "message": ""
+        },
+        "brands": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:39.097Z",
+          "message": ""
+        }
+      }
+    },
+    {
+      "code": "000005",
+      "name": "기흥(부산)휴게소",
+      "menus": 35,
+      "brands": 3,
+      "oilFacilities": 0,
+      "sources": {
+        "menus": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:42.801Z",
+          "message": ""
+        },
+        "brands": {
+          "status": "code-matched",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:42.803Z",
+          "message": ""
+        },
+        "oilFacilities": {
+          "status": "empty",
+          "rejected": 0,
+          "fetchedAt": "2026-10-13T06:11:42.805Z",
+          "message": ""
+        }
+      }
+    }
+  ],
+  "menuFlagValues": {
+    "recommendyn": [
+      "N",
+      "Y"
+    ],
+    "bestfoodyn": [
+      "N",
+      "Y"
+    ],
+    "premiumyn": [
+      "N",
+      "Y"
+    ],
+    "seasonMenu": [
+      "4",
+      "s",
+      "w"
+    ]
+  }
+}
