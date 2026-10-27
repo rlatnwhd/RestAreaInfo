@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "node server/index.js",
+    "dev": "node --watch --watch-path=server --watch-path=.env server/index.js",
     "build": "vite build",
     "preview": "node server/index.js --production",
     "start": "node server/index.js --production",

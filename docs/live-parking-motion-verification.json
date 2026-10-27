@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-17T07:47:48.409Z",
+  "base": "http://localhost:5173",
+  "parking": {
+    "total": 223,
+    "large": 68,
+    "small": 147,
+    "accessible": 8,
+    "sourceName": "죽전(서울)",
+    "source": "한국도로공사 휴게소 주차장 현황",
+    "sourceUrl": "https://www.data.go.kr/data/15043716/fileData.do",
+    "asOf": "2026-07-31",
+    "checkedAt": "2026-10-17T07:41:01.597Z",
+    "mode": "api",
+    "matching": "route-direction-name"
+  },
+  "homeRoutes": 28,
+  "reducedMotion": true,
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "errors": []
+}

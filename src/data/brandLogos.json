@@ -1,0 +1,172 @@
+{
+  "할리스커피": {
+    "logo": "/brands/brand-00.gif",
+    "source": "https://www.hollys.co.kr/",
+    "imageSource": "https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif",
+    "checkedAt": "2026-10-27"
+  },
+  "CU": {
+    "logo": "/brands/brand-01.png",
+    "source": "https://cu.bgfretail.com/",
+    "imageSource": "https://cu.bgfretail.com/images/common/new/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "던킨도너츠": {
+    "logo": "/brands/brand-02.svg",
+    "source": "https://www.dunkindonuts.co.kr/",
+    "imageSource": "https://www.dunkindonuts.co.kr/build/assets/logo-11ac097b.svg",
+    "checkedAt": "2026-10-27"
+  },
+  "이마트24": {
+    "logo": "/brands/brand-03.png",
+    "source": "https://emart24.co.kr/",
+    "imageSource": "https://emart24.co.kr/assets/assets/imgs/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "달콤커피": {
+    "logo": "/brands/brand-04.svg",
+    "source": "https://www.dalkomm.com/",
+    "imageSource": "https://www.dalkomm.com/@resource/images/com/dalkomm.svg?v=20230717",
+    "checkedAt": "2026-10-27"
+  },
+  "JDX": {
+    "logo": "/brands/brand-05.png",
+    "source": "https://www.jdx.co.kr/",
+    "imageSource": "https://www.jdx.co.kr/SkinImg/img/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "세븐일레븐": {
+    "logo": "/brands/brand-06.png",
+    "source": "https://www.7-eleven.co.kr/",
+    "imageSource": "https://www.7-eleven.co.kr/front/img/com/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "뚜레쥬르": {
+    "logo": "/brands/brand-07.png",
+    "source": "https://www.tlj.co.kr/index.asp",
+    "imageSource": "https://www.tlj.co.kr/static/images/common/logo.png?v2503",
+    "checkedAt": "2026-10-27",
+    "background": "#0b4035"
+  },
+  "앤티앤스프레즐": {
+    "logo": "/brands/brand-08.png",
+    "source": "https://www.auntieannes.co.kr/",
+    "imageSource": "https://www.auntieannes.co.kr/img/intro_logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "스태프핫도그": {
+    "logo": "/brands/brand-09.png",
+    "source": "https://www.steffhotdog.com/",
+    "imageSource": "https://www.steffhotdog.com/layout/user_d_default_ko/static/images/inc/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "BBQ": {
+    "logo": "/brands/brand-10.svg",
+    "source": "https://bbq.co.kr/",
+    "imageSource": "https://bbq.co.kr/images/symbols/logo-red.svg",
+    "checkedAt": "2026-10-27"
+  },
+  "탐앤탐스": {
+    "logo": "/brands/brand-11.png",
+    "source": "https://www.tomntoms.com/",
+    "imageSource": "https://www.tomntoms.com/assets/logo-ec2c5c29.png",
+    "checkedAt": "2026-10-27"
+  },
+  "로띠번": {
+    "logo": "/brands/brand-12.png",
+    "source": "https://rottibun.com/ko/",
+    "imageSource": "https://rottibun.com/ko/asset/img/total_logo_1.png",
+    "checkedAt": "2026-10-27"
+  },
+  "공차": {
+    "logo": "/brands/brand-14.svg",
+    "source": "https://www.gong-cha.co.kr/brand/",
+    "imageSource": "https://www.gong-cha.co.kr/html/assets/images/common/logo-header.svg",
+    "checkedAt": "2026-10-27",
+    "background": "#8c1830"
+  },
+  "파리바게뜨": {
+    "logo": "/brands/brand-15.gif",
+    "source": "https://www.paris.co.kr/",
+    "imageSource": "https://d2afncas1tel3t.cloudfront.net/wp-content/uploads/2025/02/Paris_Baguette_logo_BG.gif",
+    "checkedAt": "2026-10-27"
+  },
+  "배스킨라빈스": {
+    "logo": "/brands/brand-16.png",
+    "source": "https://www.baskinrobbins.co.kr/",
+    "imageSource": "https://www.baskinrobbins.co.kr/assets/images/common/h_logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "NEPA": {
+    "logo": "/brands/brand-17.png",
+    "source": "https://www.nplus.co.kr/main/main.asp",
+    "imageSource": "https://www.nplus.co.kr/pc/resource/images/common/d_nplus_main_logo_nepa.png",
+    "checkedAt": "2026-10-27"
+  },
+  "토스타토스트": {
+    "logo": "/brands/brand-18.png",
+    "source": "https://www.tosta-toast.com/",
+    "imageSource": "https://cdn.imweb.me/thumbnail/20260820/69c37cc1871d0.png",
+    "checkedAt": "2026-10-27",
+    "background": "#284b44"
+  },
+  "스타벅스": {
+    "logo": "/brands/brand-20.png",
+    "source": "https://www.starbucks.co.kr/index.do",
+    "imageSource": "https://image.istarbucks.co.kr/common/img/common/logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "파스쿠찌": {
+    "logo": "/brands/brand-21.png",
+    "source": "https://www.pascucci.co.kr/index.asp",
+    "imageSource": "https://www.pascucci.co.kr/lib/images/common/h1_logo.png",
+    "checkedAt": "2026-10-27"
+  },
+  "드롭탑(커피전문점)": {
+    "logo": "/brands/brand-22.png",
+    "source": "https://cafedroptop.com/",
+    "imageSource": "https://framerusercontent.com/assets/c4LCaj9wkY4eJ556yHHFQwWO7KM.png",
+    "checkedAt": "2026-10-27"
+  },
+  "롯데리아": {
+    "logo": "/brands/brand-23.png",
+    "source": "https://x.com/lotteria_korea",
+    "imageSource": "https://pbs.twimg.com/profile_images/2018504835625295872/sgd6fiNB.png",
+    "checkedAt": "2026-10-27"
+  },
+  "GS25": {
+    "logo": "/brands/extra-0.jpg",
+    "source": "https://www.gsretail.com/brand/gs25",
+    "imageSource": "https://www.brandb.net/_next/image?q=75&url=https%3A%2F%2Fapi.brandb.net%2Fapi%2Fv2%2Fcommon%2Fimage%3FfileId%3D14699&w=1920",
+    "credit": "https://www.brandb.net/archive/gs25-2019-12",
+    "checkedAt": "2026-10-27"
+  },
+  "엔제리너스": {
+    "logo": "/brands/extra-1.png",
+    "source": "https://www.lottehotel.com/prerendered/myeongdong-city/en/dining/cafe-angelinus/index.html",
+    "imageSource": "https://img.lottehotel.com/cms/asset/2025/04/14/26021/img-logo-angelinus.png",
+    "credit": null,
+    "checkedAt": "2026-10-27"
+  },
+  "투썸플레이스": {
+    "logo": "/brands/extra-2.png",
+    "source": "https://www.twosome.co.kr/",
+    "imageSource": "https://admin.inspireresorts.com/sites/default/files/2025-07/500x500%20%282%29.png",
+    "credit": "https://www.inspireresorts.com/en/shop",
+    "checkedAt": "2026-10-27"
+  },
+  "맥도날드": {
+    "logo": "/brands/extra-3.jpg",
+    "source": "https://www.mcdonalds.co.kr/kor/",
+    "imageSource": "https://cdn.imweb.me/thumbnail/20250703/96c6c85e67aff.jpg",
+    "credit": "https://koreacharityride.or.kr/Partners",
+    "checkedAt": "2026-10-27"
+  },
+  "롤리폴리(젤리캔디샵)": {
+    "logo": "/brands/extra-4.svg",
+    "source": "https://rollypolly.co.kr/",
+    "imageSource": "https://rollypolly.co.kr/images/common/logo.svg",
+    "credit": null,
+    "checkedAt": "2026-10-27"
+  }
+}

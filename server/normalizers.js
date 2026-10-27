@@ -1,4 +1,7 @@
 export function text(value) { return value == null ? '' : String(value).trim() }
+export function shelter(row, index) {
+  return { id: text(row['번호']) || String(index), name: text(row['명칭']), routeName: text(row['노선']), direction: text(row['방향']), kilometer: number(row['이정']), installedYear: number(row['설치년도']) }
+}
 export function number(value) {
   if (value == null || text(value) === '') return null
   const valueText = text(value).replaceAll(',', '')

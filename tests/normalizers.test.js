@@ -1,11 +1,19 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { number, basic, menu, oilFacility, statistic, connectRows } from '../server/normalizers.js'
+import { number, basic, menu, oilFacility, statistic, shelter, connectRows } from '../server/normalizers.js'
 
 test('invalid and missing prices remain unknown; commas and zero are preserved', () => {
   for (const input of [null, undefined, '', '무료', '-1', '8,000원', 'NaN']) assert.equal(number(input), null)
   assert.equal(number('8,000'), 8000)
   assert.equal(number('0'), 0)
+})
+test('shelters preserve official direction and fractional chainage without inventing coordinates', () => {
+  const row=shelter({'번호':1,'명칭':'오산','노선':'경부선','방향':'부산','이정':'379.6','설치년도':2013},0)
+  assert.equal(row.kilometer,379.6)
+  assert.equal(row.direction,'부산')
+  assert.equal(row.installedYear,2013)
+  assert.equal('coordinates' in row,false)
+  assert.equal(shelter({'이정':''},0).kilometer,null)
 })
 test('unknown CRS never becomes a map coordinate or direction', () => {
   const row = { stdRestCd:'000001', unitCode:'001', unitName:'서울만남(부산)휴게소', xValue:'127.042514', yValue:'37.459939' }

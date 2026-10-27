@@ -1,0 +1,3283 @@
+{
+  "source": "한국도로공사 휴게소 현황",
+  "sourceUrl": "https://www.ex.co.kr/portal/usefee/selectZoneHugae2.do",
+  "asOf": null,
+  "checkedAt": "2026-10-16",
+  "rows": [
+    {
+      "serviceAreaCode": "A00111",
+      "name": "강릉(강릉)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00110",
+      "name": "강릉(인천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00238",
+      "name": "강천산(광주)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00237",
+      "name": "강천산(대구)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00074",
+      "name": "거창(광주)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00073",
+      "name": "거창(대구)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00078",
+      "name": "건천(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00077",
+      "name": "건천(서울)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00070",
+      "name": "경산(서울)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00107",
+      "name": "경주(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00316",
+      "name": "고삼호수",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00152",
+      "name": "고성공룡나라(대전)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00153",
+      "name": "고성공룡나라(통영)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00123",
+      "name": "고창고인돌(목포)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00122",
+      "name": "고창고인돌(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00063",
+      "name": "곡성(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00056",
+      "name": "곡성(천안)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00171",
+      "name": "공주(당진)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00170",
+      "name": "공주(대전)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00145",
+      "name": "괴산(양평)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00144",
+      "name": "괴산(창원)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00199",
+      "name": "구리(일산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00137",
+      "name": "구정(삼척)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00136",
+      "name": "구정(속초)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00119",
+      "name": "군산(목포)",
+      "restFacilities": [
+        "수유실",
+        "샤워실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00118",
+      "name": "군산(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "약국",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00081",
+      "name": "군위(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00082",
+      "name": "군위(춘천)",
+      "restFacilities": [
+        "수유실",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00037",
+      "name": "금강(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00104",
+      "name": "금산인삼랜드(대전)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00105",
+      "name": "금산인삼랜드(통영)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00233",
+      "name": "금왕(제천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00232",
+      "name": "금왕(평택)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00003",
+      "name": "기흥(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00320",
+      "name": "김제(새만금)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00319",
+      "name": "김제(전주)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00184",
+      "name": "김천(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00163",
+      "name": "김천(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00265",
+      "name": "김해금관가야",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00158",
+      "name": "남성주참외(양평)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00160",
+      "name": "남성주참외(창원)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00312",
+      "name": "남한강",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00263",
+      "name": "내린천",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00223",
+      "name": "논공(광주)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00226",
+      "name": "논공(대구)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00112",
+      "name": "단양팔경(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00113",
+      "name": "단양팔경(춘천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00109",
+      "name": "대천(목포)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00108",
+      "name": "대천(서울)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00114",
+      "name": "덕유산(대전)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00115",
+      "name": "덕유산(통영)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00154",
+      "name": "덕평",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00134",
+      "name": "동명(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00133",
+      "name": "동명(춘천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00025",
+      "name": "동해(삼척)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00231",
+      "name": "마장",
+      "restFacilities": [
+        "수유실",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00030",
+      "name": "망향(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00267",
+      "name": "매송(목포)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00266",
+      "name": "매송(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00147",
+      "name": "문경(양평)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00146",
+      "name": "문경(창원)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00024",
+      "name": "문막(강릉)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00013",
+      "name": "문막(인천)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00091",
+      "name": "문산(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00304",
+      "name": "문의청남대(영덕)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00303",
+      "name": "문의청남대(청주)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00314",
+      "name": "밀양영남루(울산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00313",
+      "name": "밀양영남루(함양)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00061",
+      "name": "백양사(순천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00060",
+      "name": "백양사(천안)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00043",
+      "name": "벌곡(논산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00042",
+      "name": "벌곡(대전)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00225",
+      "name": "보성녹차(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00224",
+      "name": "보성녹차(영암)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00306",
+      "name": "부안고려청자(목포)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00305",
+      "name": "부안고려청자(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00173",
+      "name": "부여백제(공주)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00172",
+      "name": "부여백제(서천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00097",
+      "name": "사천(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00096",
+      "name": "사천(순천)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00098",
+      "name": "산청(대전)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00099",
+      "name": "산청(통영)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00308",
+      "name": "서부산(순천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00117",
+      "name": "서산(목포)",
+      "restFacilities": [
+        "수유실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00116",
+      "name": "서산(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00189",
+      "name": "서여주(양평)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00188",
+      "name": "서여주(창원)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00001",
+      "name": "서울만남(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00151",
+      "name": "서천(목포)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00150",
+      "name": "서천(서울)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00121",
+      "name": "선산(양평)",
+      "restFacilities": [],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00120",
+      "name": "선산(창원)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00054",
+      "name": "섬진강(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00053",
+      "name": "섬진강(순천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00221",
+      "name": "성주(양평)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00222",
+      "name": "성주(창원)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00195",
+      "name": "속리산(청주)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00064",
+      "name": "순천(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00264",
+      "name": "시흥하늘",
+      "restFacilities": [
+        "수유실",
+        "약국",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00102",
+      "name": "신탄진(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00079",
+      "name": "안동(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00080",
+      "name": "안동(춘천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00307",
+      "name": "안산",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "세탁실",
+        "약국"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00005",
+      "name": "안성(부산)",
+      "restFacilities": [
+        "수유실",
+        "샤워실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00004",
+      "name": "안성(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00169",
+      "name": "안성맞춤(제천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00165",
+      "name": "안성맞춤(평택)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00132",
+      "name": "양산(서울)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00086",
+      "name": "언양(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00045",
+      "name": "여산(순천)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00012",
+      "name": "여주(강릉)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00011",
+      "name": "여주(인천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00317",
+      "name": "영덕(영덕)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00016",
+      "name": "영산(창원)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00141",
+      "name": "영천(대구)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00140",
+      "name": "영천(포항)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00175",
+      "name": "예산(당진)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00174",
+      "name": "예산(대전)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00193",
+      "name": "오수(순천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00194",
+      "name": "오수(완주)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00039",
+      "name": "오창(남이)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00038",
+      "name": "오창(하남)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00135",
+      "name": "옥계(속초)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00032",
+      "name": "옥산(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터",
+        "이발소"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00103",
+      "name": "옥천(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00047",
+      "name": "옥천(서울)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00227",
+      "name": "옥천만남",
+      "restFacilities": [
+        "수면실",
+        "샤워실",
+        "세탁실"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00143",
+      "name": "와촌(포항)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00247",
+      "name": "외동(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00246",
+      "name": "외동(포항)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00010",
+      "name": "용인(강릉)",
+      "restFacilities": [
+        "수유실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00009",
+      "name": "용인(인천)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00271",
+      "name": "울주(울산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00270",
+      "name": "울주(함양)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00148",
+      "name": "원주(부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00149",
+      "name": "원주(춘천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00041",
+      "name": "음성(남이)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00040",
+      "name": "음성(하남)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00254",
+      "name": "의성(영덕)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00253",
+      "name": "의성(청주)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00191",
+      "name": "이서(순천)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00190",
+      "name": "이서(천안)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00008",
+      "name": "이천(남이)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00007",
+      "name": "이천쌀(하남)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00044",
+      "name": "익산미륵사지(천안)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00050",
+      "name": "입장거봉포도(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터",
+        "이발소"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00083",
+      "name": "장유(서부산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00269",
+      "name": "장흥정남진",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00052",
+      "name": "정읍녹두장군(순천)",
+      "restFacilities": [
+        "수유실",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00051",
+      "name": "정읍녹두장군(천안)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00055",
+      "name": "주암(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00062",
+      "name": "주암(천안)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00036",
+      "name": "죽암(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00035",
+      "name": "죽암(서울)",
+      "restFacilities": [
+        "수유실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00002",
+      "name": "죽전(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00059",
+      "name": "지리산(광주)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00058",
+      "name": "지리산(대구)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00161",
+      "name": "진안마이산(익산)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00162",
+      "name": "진안마이산(장수)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00085",
+      "name": "진영(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00084",
+      "name": "진영(순천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00185",
+      "name": "진주(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00315",
+      "name": "처인",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00240",
+      "name": "천등산(제천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00239",
+      "name": "천등산(평택)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00033",
+      "name": "천안삼거리(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "약국",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00034",
+      "name": "천안호두(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00256",
+      "name": "청송(영덕)",
+      "restFacilities": [],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00255",
+      "name": "청송(청주)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00126",
+      "name": "청주(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00142",
+      "name": "청통(대구)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00068",
+      "name": "추풍령(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00067",
+      "name": "추풍령(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00131",
+      "name": "춘천(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00310",
+      "name": "춘향(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00311",
+      "name": "춘향(완주)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00128",
+      "name": "충주(양평)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00127",
+      "name": "충주(창원)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00028",
+      "name": "치악(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00029",
+      "name": "치악(춘천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00072",
+      "name": "칠곡(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00069",
+      "name": "칠곡(서울)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00094",
+      "name": "칠서(양평)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00088",
+      "name": "통도사(부산)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00071",
+      "name": "평사(부산)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00101",
+      "name": "평창(강릉)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00100",
+      "name": "평창(인천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00268",
+      "name": "평택",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터",
+        "반려견 놀이터"
+      ],
+      "oilFacilities": [],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00318",
+      "name": "포항(포항)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00006",
+      "name": "하남드림",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00186",
+      "name": "함안(부산)",
+      "restFacilities": [
+        "수유실",
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "O"
+    },
+    {
+      "serviceAreaCode": "A00187",
+      "name": "함안(순천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00129",
+      "name": "함양(대전)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00130",
+      "name": "함양(통영)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00155",
+      "name": "함평나비(광주)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00156",
+      "name": "함평나비(무안)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00124",
+      "name": "함평천지(목포)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "수면실",
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00125",
+      "name": "함평천지(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00106",
+      "name": "행담도",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "약국",
+        "쉼터"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "O",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00089",
+      "name": "현풍(대구)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00090",
+      "name": "현풍(창원)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00139",
+      "name": "홍성(목포)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00138",
+      "name": "홍성(서울)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00261",
+      "name": "홍천(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00262",
+      "name": "홍천(양양)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00027",
+      "name": "홍천강(춘천)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00159",
+      "name": "화서(영덕)",
+      "restFacilities": [
+        "수유실",
+        "샤워실",
+        "세탁실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "세탁실"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00015",
+      "name": "화성(목포)",
+      "restFacilities": [
+        "수유실"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00014",
+      "name": "화성(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "O",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00049",
+      "name": "황간(부산)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00048",
+      "name": "황간(서울)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00196",
+      "name": "황전(순천)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00197",
+      "name": "황전(완주)",
+      "restFacilities": [
+        "수유실",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00019",
+      "name": "횡성(강릉)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    },
+    {
+      "serviceAreaCode": "A00018",
+      "name": "횡성(인천)",
+      "restFacilities": [
+        "수유실",
+        "농산물판매장",
+        "쉼터"
+      ],
+      "oilFacilities": [
+        "샤워실",
+        "세탁실",
+        "쉼터"
+      ],
+      "wash": "X",
+      "maintenance": "X",
+      "truck": "X"
+    }
+  ]
+}

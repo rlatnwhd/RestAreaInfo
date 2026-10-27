@@ -1,0 +1,4206 @@
+{
+  "checkedAt": "2026-10-16",
+  "total": 203,
+  "summary": {
+    "statistics": 165,
+    "oil": 150,
+    "facilities": 180,
+    "directions": 172
+  },
+  "rows": [
+    {
+      "code": "000001",
+      "name": "서울만남(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000003",
+      "name": "죽전(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000005",
+      "name": "기흥(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000007",
+      "name": "안성(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000009",
+      "name": "안성(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower"
+      ]
+    },
+    {
+      "code": "000013",
+      "name": "망향(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000021",
+      "name": "옥산(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000015",
+      "name": "천안삼거리(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden",
+        "pharmacy"
+      ]
+    },
+    {
+      "code": "000017",
+      "name": "천안호두(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000024",
+      "name": "죽암(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000026",
+      "name": "죽암(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000034",
+      "name": "금강(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000032",
+      "name": "옥천(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower"
+      ]
+    },
+    {
+      "code": "000038",
+      "name": "황간(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000036",
+      "name": "황간(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000011",
+      "name": "입장거봉포도(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000042",
+      "name": "추풍령(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000040",
+      "name": "추풍령(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000046",
+      "name": "칠곡(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000048",
+      "name": "경산(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000050",
+      "name": "평사(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000044",
+      "name": "칠곡(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000052",
+      "name": "건천(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000054",
+      "name": "건천(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000057",
+      "name": "언양(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000059",
+      "name": "언양(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": []
+    },
+    {
+      "code": "000028",
+      "name": "신탄진(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000030",
+      "name": "옥천(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000055",
+      "name": "경주(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000019",
+      "name": "청주(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000062",
+      "name": "양산(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000306",
+      "name": "김천(서울)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000342",
+      "name": "김천(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000370",
+      "name": "서울하이패스센터쉼터",
+      "routeName": "경부선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000372",
+      "name": "통도사(부산)휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000404",
+      "name": "옥천만남휴게소",
+      "routeName": "경부선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wash",
+        "maintenance",
+        "truck",
+        "shower",
+        "sleep",
+        "laundry"
+      ]
+    },
+    {
+      "code": "000408",
+      "name": "기흥복합휴게소",
+      "routeName": "경부선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000078",
+      "name": "섬진강(순천)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000077",
+      "name": "섬진강(부산)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000064",
+      "name": "진영(순천)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000063",
+      "name": "진영(부산)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000071",
+      "name": "문산(순천)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000074",
+      "name": "사천(순천)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "garden"
+      ]
+    },
+    {
+      "code": "000073",
+      "name": "사천(부산)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000347",
+      "name": "진주(부산)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000344",
+      "name": "함안(부산)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000348",
+      "name": "함안(순천)휴게소",
+      "routeName": "남해선(순천-부산)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000401",
+      "name": "보성녹차(영암)휴게소",
+      "routeName": "남해선(영암-순천)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000400",
+      "name": "보성녹차(순천)휴게소",
+      "routeName": "남해선(영암-순천)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000269",
+      "name": "함평나비(광주)휴게소",
+      "routeName": "무안광주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "대구"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000270",
+      "name": "함평나비(무안)휴게소",
+      "routeName": "무안광주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "무안"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000092",
+      "name": "화성(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000093",
+      "name": "화성(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000341",
+      "name": "행담도휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "목포",
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden",
+        "pharmacy"
+      ]
+    },
+    {
+      "code": "000102",
+      "name": "대천(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000103",
+      "name": "대천(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000100",
+      "name": "서산(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000098",
+      "name": "서산(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000106",
+      "name": "군산(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden",
+        "pharmacy"
+      ]
+    },
+    {
+      "code": "000108",
+      "name": "군산(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower"
+      ]
+    },
+    {
+      "code": "000112",
+      "name": "고창고인돌(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000110",
+      "name": "고창고인돌(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000117",
+      "name": "함평천지(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000115",
+      "name": "함평천지(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000253",
+      "name": "홍성(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000254",
+      "name": "홍성(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000261",
+      "name": "서천(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "시흥"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000262",
+      "name": "서천(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "목포"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000326",
+      "name": "목감(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 3,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000377",
+      "name": "부안하쉼터",
+      "routeName": "서해안선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000376",
+      "name": "부안상쉼터",
+      "routeName": "서해안선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000378",
+      "name": "대산(서울)휴게소",
+      "routeName": "서해안선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000389",
+      "name": "영광(목포)휴게소",
+      "routeName": "서해안선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000118",
+      "name": "익산미륵사지(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "unmatched",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000119",
+      "name": "익산미륵사지(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "unmatched",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000122",
+      "name": "정읍녹두장군(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000123",
+      "name": "정읍녹두장군(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000134",
+      "name": "주암(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000130",
+      "name": "곡성(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "garden"
+      ]
+    },
+    {
+      "code": "000126",
+      "name": "백양사(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "garden"
+      ]
+    },
+    {
+      "code": "000127",
+      "name": "백양사(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000135",
+      "name": "주암(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000131",
+      "name": "곡성(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000138",
+      "name": "순천(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000358",
+      "name": "이서(천안)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000355",
+      "name": "이서(순천)휴게소",
+      "routeName": "호남선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "순천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000361",
+      "name": "오수(순천)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "광양"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000360",
+      "name": "오수(완주)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "전주"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000364",
+      "name": "황전(순천)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "광양"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000365",
+      "name": "황전(완주)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "전주"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000393",
+      "name": "관촌(광양)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000392",
+      "name": "관촌(전주)휴게소",
+      "routeName": "순천완주선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000279",
+      "name": "속리산(청주)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 5,
+      "officialDirections": [],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000280",
+      "name": "화서(영덕)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "상주"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000318",
+      "name": "공주(대전)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "청원"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000324",
+      "name": "공주(당진)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "상주"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000314",
+      "name": "예산(대전)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "청원"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000316",
+      "name": "예산(당진)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "상주"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000382",
+      "name": "면천(당진)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 1,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000381",
+      "name": "면천(대전)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000379",
+      "name": "신풍(당진)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 1,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000380",
+      "name": "신풍(대전)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000385",
+      "name": "상주(청원)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000386",
+      "name": "상주(영덕)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000495",
+      "name": "의성(청주)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "상주"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000496",
+      "name": "의성(영덕)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "청원"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000503",
+      "name": "청송(청주)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "상주"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000504",
+      "name": "청송(영덕)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "청원"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck"
+      ]
+    },
+    {
+      "code": "000499",
+      "name": "점곡(상주)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000500",
+      "name": "점곡(영덕)휴게소",
+      "routeName": "청주영덕선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000165",
+      "name": "산청(대전)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000166",
+      "name": "산청(통영)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000153",
+      "name": "금산인삼랜드(대전)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000154",
+      "name": "금산인삼랜드(통영)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000157",
+      "name": "덕유산(대전)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000158",
+      "name": "덕유산(통영)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000289",
+      "name": "고성공룡나라(대전)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000288",
+      "name": "고성공룡나라(통영)휴게소",
+      "routeName": "통영대전선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000139",
+      "name": "하남드림휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000141",
+      "name": "이천쌀(하남)휴게소",
+      "routeName": "중부선",
+      "statistics": "unmatched",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000144",
+      "name": "이천(남이)휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000149",
+      "name": "오창(하남)휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000150",
+      "name": "오창(남이)휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000145",
+      "name": "음성(하남)휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "하남"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000146",
+      "name": "음성(남이)휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "통영"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000409",
+      "name": "마장휴게소",
+      "routeName": "중부선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "통영",
+        "하남"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000331",
+      "name": "안성맞춤(평택)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "평택"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000333",
+      "name": "안성맞춤(제천)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "제천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000413",
+      "name": "금왕(평택)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "평택"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000414",
+      "name": "금왕(제천)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "제천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000420",
+      "name": "천등산(평택)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "평택"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000419",
+      "name": "천등산(제천)휴게소",
+      "routeName": "평택제천선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "제천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000177",
+      "name": "영산(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "현풍"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000179",
+      "name": "칠서(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "대구"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000173",
+      "name": "선산(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus"
+      ]
+    },
+    {
+      "code": "000174",
+      "name": "선산(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus"
+      ]
+    },
+    {
+      "code": "000169",
+      "name": "충주(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000170",
+      "name": "충주(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000295",
+      "name": "괴산(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000303",
+      "name": "괴산(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000268",
+      "name": "문경(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000273",
+      "name": "문경(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000277",
+      "name": "남성주참외(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000278",
+      "name": "남성주참외(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 10,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000350",
+      "name": "서여주(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000351",
+      "name": "서여주(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000397",
+      "name": "성주(양평)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 9,
+      "officialDirections": [
+        "양평"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000396",
+      "name": "성주(창원)휴게소",
+      "routeName": "중부내륙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "마산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000208",
+      "name": "용인(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "garden"
+      ]
+    },
+    {
+      "code": "000207",
+      "name": "용인(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000204",
+      "name": "여주(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000203",
+      "name": "여주(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000199",
+      "name": "문막(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 8,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000195",
+      "name": "횡성(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000194",
+      "name": "횡성(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "bus",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000201",
+      "name": "문막(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000186",
+      "name": "평창(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000188",
+      "name": "평창(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000182",
+      "name": "강릉(인천)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "인천"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000181",
+      "name": "강릉(강릉)휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "강릉"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000292",
+      "name": "덕평휴게소",
+      "routeName": "영동선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "강릉",
+        "인천"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000213",
+      "name": "홍천강(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000217",
+      "name": "치악(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000218",
+      "name": "치악(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000225",
+      "name": "안동(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000226",
+      "name": "안동(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000229",
+      "name": "군위(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000230",
+      "name": "군위(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000223",
+      "name": "단양팔경(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000221",
+      "name": "단양팔경(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000211",
+      "name": "춘천(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000250",
+      "name": "동명(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000249",
+      "name": "동명(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000299",
+      "name": "원주(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "부산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000300",
+      "name": "원주(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "춘천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000311",
+      "name": "영주(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000312",
+      "name": "영주(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000313",
+      "name": "제천(춘천)휴게소",
+      "routeName": "중앙선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": [
+        "wifi"
+      ]
+    },
+    {
+      "code": "000328",
+      "name": "제천(부산)휴게소",
+      "routeName": "중앙선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": [
+        "wifi"
+      ]
+    },
+    {
+      "code": "000509",
+      "name": "홍천(서울)휴게소",
+      "routeName": "서울양양선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "서울"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000510",
+      "name": "홍천(양양)휴게소",
+      "routeName": "서울양양선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "양양"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000233",
+      "name": "동해(삼척)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 2,
+      "officialDirections": [
+        "동해"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000301",
+      "name": "옥계(속초)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "속초"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000274",
+      "name": "구정(속초)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "속초"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000267",
+      "name": "구정(삼척)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "동해"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000339",
+      "name": "양양(동해)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 1,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000338",
+      "name": "양양(속초)휴게소",
+      "routeName": "동해선(삼척-속초)",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 1,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000440",
+      "name": "외동(포항)휴게소",
+      "routeName": "동해선(부산-포항)",
+      "statistics": "unmatched",
+      "oil": "route-direction-name",
+      "facilityRecords": 3,
+      "officialDirections": [
+        "속초"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000441",
+      "name": "외동(부산)휴게소",
+      "routeName": "동해선(부산-포항)",
+      "statistics": "unmatched",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "동해"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000501",
+      "name": "양북임시(상)휴게소",
+      "routeName": "동해선(부산-포항)",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000502",
+      "name": "양북임시(하)휴게소",
+      "routeName": "동해선(부산-포항)",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000329",
+      "name": "의왕(일산)휴게소",
+      "routeName": "수도권제1순환선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 1,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000336",
+      "name": "서하남행복드림쉼터",
+      "routeName": "수도권제1순환선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 3,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000371",
+      "name": "구리(일산)휴게소",
+      "routeName": "수도권제1순환선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "퇴계원"
+      ],
+      "snapshotItems": [
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000236",
+      "name": "장유(서부산)휴게소",
+      "routeName": "남해2지선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "냉정"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000320",
+      "name": "부여백제(공주)휴게소",
+      "routeName": "서천공주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "서천"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000321",
+      "name": "부여백제(서천)휴게소",
+      "routeName": "서천공주선",
+      "statistics": "route-direction-name",
+      "oil": "route-direction-name",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "공주"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun"
+      ]
+    },
+    {
+      "code": "000383",
+      "name": "청양(서천)휴게소",
+      "routeName": "서천공주선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000384",
+      "name": "청양(공주)휴게소",
+      "routeName": "서천공주선",
+      "statistics": "unmatched",
+      "oil": "unmatched",
+      "facilityRecords": 0,
+      "officialDirections": [],
+      "snapshotItems": []
+    },
+    {
+      "code": "000238",
+      "name": "벌곡(대전)휴게소",
+      "routeName": "호남지선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 7,
+      "officialDirections": [
+        "대전"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "shower",
+        "sleep",
+        "laundry",
+        "garden"
+      ]
+    },
+    {
+      "code": "000240",
+      "name": "벌곡(논산)휴게소",
+      "routeName": "호남지선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 4,
+      "officialDirections": [
+        "논산"
+      ],
+      "snapshotItems": [
+        "wifi",
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing"
+      ]
+    },
+    {
+      "code": "000243",
+      "name": "현풍(대구)휴게소",
+      "routeName": "중부내륙지선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 5,
+      "officialDirections": [
+        "대구"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    },
+    {
+      "code": "000244",
+      "name": "현풍(창원)휴게소",
+      "routeName": "중부내륙지선",
+      "statistics": "route-direction-name",
+      "oil": "unmatched",
+      "facilityRecords": 6,
+      "officialDirections": [
+        "현풍"
+      ],
+      "snapshotItems": [
+        "air",
+        "vacuum",
+        "mat",
+        "airgun",
+        "wash",
+        "maintenance",
+        "truck",
+        "nursing",
+        "garden"
+      ]
+    }
+  ]
+}

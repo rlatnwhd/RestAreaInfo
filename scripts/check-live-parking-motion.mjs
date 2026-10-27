@@ -1,0 +1,61 @@
+import assert from 'node:assert/strict'
+import fs from 'node:fs'
+import { chromium } from 'playwright'
+// Deliberately verify the user's running address, not an isolated test server.
+const base = 'http://localhost:5173'
+const data = await (await fetch(`${base}/api/rest-areas`)).json()
+const area = data.rows.find(row => row.code === '000003')
+const detail = await (await fetch(`${base}/api/rest-area?id=${encodeURIComponent(area.id)}`)).json()
+assert.equal(detail.parking.total, 223)
+assert.equal(detail.parking.mode, 'api')
+const browser = await chromium.launch({ channel: 'msedge', headless: true })
+try {
+  const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } }), errors = []
+  page.on('pageerror', error => errors.push(error.message))
+  await page.goto(`${base}/#route`)
+  const home = page.locator('.home-highways')
+  await home.locator('.highway-route-card').first().waitFor({ timeout: 45000 })
+  assert.equal(await home.locator('.highway-route-card').count(), 28)
+  const positions = await page.evaluate(() => ({ map: document.querySelector('.explorer-panel').getBoundingClientRect().bottom, roads: document.querySelector('.home-highways').getBoundingClientRect().top }))
+  assert.ok(positions.roads > positions.map)
+  await home.locator('.highway-route-card').first().scrollIntoViewIfNeeded()
+  await page.waitForFunction(() => document.querySelector('.home-highways .highway-route-card')?.dataset.motionRevealed === 'true')
+  await page.waitForTimeout(550)
+  await home.locator('.highway-route-card').first().hover()
+  await page.waitForTimeout(280)
+  assert.equal(await home.locator('.highway-route-card').first().evaluate(element=>getComputedStyle(element).transform),'none')
+  const navigation=page.locator('.main-nav a[href="#highways"]')
+  await navigation.hover()
+  assert.equal(await navigation.evaluate(element=>getComputedStyle(element).backgroundColor),'rgba(0, 0, 0, 0)')
+  fs.mkdirSync('artifacts', { recursive: true })
+  await page.screenshot({ path: 'artifacts/home-highways-live.png' })
+  await page.getByRole('link', { name: '휴게소 찾기', exact: true }).click()
+  await page.getByLabel('휴게소명 검색').fill('죽전')
+  await page.locator('.area-open').first().hover()
+  await page.waitForTimeout(650)
+  assert.equal(await page.locator('.area-card').first().evaluate(element=>getComputedStyle(element).transform),'none')
+  await page.locator('.area-open').first().click()
+  await page.locator('.parking-info dd').first().waitFor({ timeout: 45000 })
+  assert.equal(await page.locator('.parking-total strong').innerText(), '223면')
+  assert.ok((await page.locator('.parking-breakdown dd').allTextContents()).every((text,index)=>text.startsWith(['147면','68면','8면'][index])))
+  assert.equal(await page.locator('.parking-chart svg[role=img]').count(),1)
+  await page.waitForTimeout(300)
+  await page.locator('.detail-dialog').screenshot({ path: 'artifacts/parking-live-5173.png' })
+  for (const width of [320, 390, 768, 1440]) {
+    await page.setViewportSize({ width, height: 900 })
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth))
+    assert.ok(await page.locator('.detail-dialog').evaluate(element => element.scrollWidth <= element.clientWidth + 1))
+  }
+  await page.getByRole('tab', { name: '음식 메뉴', exact: true }).click()
+  assert.ok(await page.locator('#detail-panel').evaluate(element => getComputedStyle(element).animationName.includes('panel-reveal')))
+  assert.deepEqual(errors, [])
+  const reduced = await browser.newContext({ reducedMotion: 'reduce', viewport: { width: 390, height: 844 } })
+  const reducedPage = await reduced.newPage()
+  await reducedPage.goto(`${base}/#highways`)
+  await reducedPage.locator('.highway-route-card').first().waitFor({ timeout: 45000 })
+  assert.ok(await reducedPage.locator('.highway-route-card').first().evaluate(element => parseFloat(getComputedStyle(element).transitionDuration) < .01))
+  assert.ok(await reducedPage.evaluate(() => document.querySelector('main').getAnimations().length === 0))
+  const report = { checkedAt: new Date().toISOString(), base, parking: detail.parking, homeRoutes: 28, reducedMotion: true, widths: [320,390,768,1440], errors }
+  fs.writeFileSync('docs/live-parking-motion-verification.json', JSON.stringify(report, null, 2)+'\n')
+  console.log(JSON.stringify({ passed: true, base, parking: detail.parking.total, homeRoutes: 28, reducedMotion: true }))
+} finally { await browser.close() }

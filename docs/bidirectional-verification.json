@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-10-16T11:24:45.061Z",
+  "total": 243,
+  "count": 14,
+  "rows": [
+    {
+      "code": "000404",
+      "name": "옥천만남휴게소",
+      "routeName": "경부선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "옥천만남",
+        "routeNumber": "1"
+      }
+    },
+    {
+      "code": "000341",
+      "name": "행담도휴게소",
+      "routeName": "서해안선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "행담도",
+        "routeNumber": "15"
+      }
+    },
+    {
+      "code": "000139",
+      "name": "하남드림휴게소",
+      "routeName": "중부선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "하남드림",
+        "routeNumber": "35"
+      }
+    },
+    {
+      "code": "000409",
+      "name": "마장휴게소",
+      "routeName": "중부선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "마장",
+        "routeNumber": "35"
+      }
+    },
+    {
+      "code": "000292",
+      "name": "덕평휴게소",
+      "routeName": "영동선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "덕평",
+        "routeNumber": "50"
+      }
+    },
+    {
+      "code": "000575",
+      "name": "장흥정남진휴게소",
+      "routeName": "남해선(영암-순천)",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "장흥정남진",
+        "routeNumber": "10"
+      }
+    },
+    {
+      "code": "000605",
+      "name": "처인휴게소",
+      "routeName": "세종포천선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "처인",
+        "routeNumber": "29"
+      }
+    },
+    {
+      "code": "000608",
+      "name": "고삼호수휴게소",
+      "routeName": "세종포천선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "고삼호수",
+        "routeNumber": "29"
+      }
+    },
+    {
+      "code": "000572",
+      "name": "평택휴게소",
+      "routeName": "평택제천선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "평택",
+        "routeNumber": "40"
+      }
+    },
+    {
+      "code": "000598",
+      "name": "남한강휴게소",
+      "routeName": "중부내륙선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "남한강",
+        "routeNumber": "45"
+      }
+    },
+    {
+      "code": "000589",
+      "name": "안산휴게소",
+      "routeName": "영동선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "안산",
+        "routeNumber": "50"
+      }
+    },
+    {
+      "code": "000513",
+      "name": "내린천휴게소",
+      "routeName": "서울양양선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "내린천",
+        "routeNumber": "60"
+      }
+    },
+    {
+      "code": "000530",
+      "name": "시흥하늘휴게소",
+      "routeName": "수도권제1순환선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "시흥하늘",
+        "routeNumber": "100"
+      }
+    },
+    {
+      "code": "000548",
+      "name": "김해금관가야휴게소",
+      "routeName": "부산외곽순환선",
+      "evidence": {
+        "source": "한국도로공사 · 전국휴게소정보표준데이터",
+        "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+        "asOf": "2026-09-17",
+        "checkedAt": "2026-10-16",
+        "sourceName": "김해금관가야",
+        "routeNumber": "600"
+      }
+    }
+  ]
+}

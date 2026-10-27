@@ -1,0 +1,15 @@
+[
+  {
+    "code": "000292",
+    "name": "덕평휴게소",
+    "routeName": "영동선",
+    "scope": "푸드코트",
+    "hours": "24시간",
+    "exception": "일부 품목 제외. 개별 메뉴의 판매시간과 주문 마감시간은 현장 확인이 필요합니다.",
+    "source": "이천시 문화관광 · 덕평자연휴게소",
+    "sourceUrl": "https://www.icheon.go.kr/tour/cultureTour/manage/view.do?idx=37&mid=0302040000",
+    "checkedAt": "2026-10-16",
+    "publishedAt": null,
+    "phone": "031-645-0001"
+  }
+]

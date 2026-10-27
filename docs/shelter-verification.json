@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-15T16:10:55.219Z",
+  "count": 253,
+  "datasetDate": "2026-08-01",
+  "sourceUrl": "https://www.data.go.kr/data/15043710/fileData.do",
+  "sample": [
+    {
+      "id": "1",
+      "name": "김포",
+      "routeName": "수도권제1순환선",
+      "direction": "일산",
+      "kilometer": 76,
+      "installedYear": 2015
+    },
+    {
+      "id": "2",
+      "name": "김포",
+      "routeName": "수도권제1순환선",
+      "direction": "판교",
+      "kilometer": 77,
+      "installedYear": 2015
+    },
+    {
+      "id": "3",
+      "name": "시흥",
+      "routeName": "수도권제1순환선",
+      "direction": "일산",
+      "kilometer": 95.8,
+      "installedYear": 2015
+    }
+  ]
+}

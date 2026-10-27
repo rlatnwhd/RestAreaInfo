@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-10-16T06:46:37.853Z",
+  "baseCount": 203,
+  "count": 243,
+  "roadCount": 28,
+  "roads": [
+    {
+      "value": "경부선",
+      "name": "경부선",
+      "type": "expressway",
+      "number": "1"
+    },
+    {
+      "value": "남해선(순천-부산)",
+      "name": "남해선(순천-부산)",
+      "type": "expressway",
+      "number": "10"
+    },
+    {
+      "value": "남해선(영암-순천)",
+      "name": "남해선(영암-순천)",
+      "type": "expressway",
+      "number": "10"
+    },
+    {
+      "value": "광주대구선",
+      "name": "광주대구선",
+      "type": "expressway",
+      "number": "12"
+    },
+    {
+      "value": "무안광주선",
+      "name": "무안광주선",
+      "type": "expressway",
+      "number": "12"
+    },
+    {
+      "value": "밀양울산선",
+      "name": "밀양울산선",
+      "type": "expressway",
+      "number": "14"
+    },
+    {
+      "value": "서해안선",
+      "name": "서해안선",
+      "type": "expressway",
+      "number": "15"
+    },
+    {
+      "value": "새만금포항선(대구~포항)",
+      "name": "새만금포항선(대구~포항)",
+      "type": "expressway",
+      "number": "20"
+    },
+    {
+      "value": "완주장수선",
+      "name": "완주장수선",
+      "type": "expressway",
+      "number": "20"
+    },
+    {
+      "value": "호남선",
+      "name": "호남선",
+      "type": "expressway",
+      "number": "25"
+    },
+    {
+      "value": "순천완주선",
+      "name": "순천완주선",
+      "type": "expressway",
+      "number": "27"
+    },
+    {
+      "value": "세종포천선",
+      "name": "세종포천선",
+      "type": "expressway",
+      "number": "29"
+    },
+    {
+      "value": "청주영덕선",
+      "name": "청주영덕선",
+      "type": "expressway",
+      "number": "30"
+    },
+    {
+      "value": "중부선",
+      "name": "중부선",
+      "type": "expressway",
+      "number": "35"
+    },
+    {
+      "value": "통영대전선",
+      "name": "통영대전선",
+      "type": "expressway",
+      "number": "35"
+    },
+    {
+      "value": "평택제천선",
+      "name": "평택제천선",
+      "type": "expressway",
+      "number": "40"
+    },
+    {
+      "value": "중부내륙선",
+      "name": "중부내륙선",
+      "type": "expressway",
+      "number": "45"
+    },
+    {
+      "value": "영동선",
+      "name": "영동선",
+      "type": "expressway",
+      "number": "50"
+    },
+    {
+      "value": "중앙선",
+      "name": "중앙선",
+      "type": "expressway",
+      "number": "55"
+    },
+    {
+      "value": "서울양양선",
+      "name": "서울양양선",
+      "type": "expressway",
+      "number": "60"
+    },
+    {
+      "value": "동해선(부산-포항)",
+      "name": "동해선(부산-포항)",
+      "type": "expressway",
+      "number": "65"
+    },
+    {
+      "value": "동해선(삼척-속초)",
+      "name": "동해선(삼척-속초)",
+      "type": "expressway",
+      "number": "65"
+    },
+    {
+      "value": "수도권제1순환선",
+      "name": "수도권제1순환선",
+      "type": "expressway",
+      "number": "100"
+    },
+    {
+      "value": "남해2지선",
+      "name": "남해2지선",
+      "type": "expressway",
+      "number": "104"
+    },
+    {
+      "value": "서천공주선",
+      "name": "서천공주선",
+      "type": "expressway",
+      "number": "151"
+    },
+    {
+      "value": "호남지선",
+      "name": "호남지선",
+      "type": "expressway",
+      "number": "251"
+    },
+    {
+      "value": "중부내륙지선",
+      "name": "중부내륙지선",
+      "type": "expressway",
+      "number": "451"
+    },
+    {
+      "value": "부산외곽순환선",
+      "name": "부산외곽순환선",
+      "type": "expressway",
+      "number": "600"
+    }
+  ],
+  "testedSupplement": "처인휴게소",
+  "sources": [
+    "locationinfo/locationinfoRest",
+    "business/serviceAreaRoute"
+  ]
+}

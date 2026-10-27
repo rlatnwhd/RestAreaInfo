@@ -1,0 +1,1727 @@
+{
+  "source": "한국도로공사 · 전국휴게소정보표준데이터",
+  "sourceUrl": "https://www.data.go.kr/data/15025446/standard.do",
+  "checkedAt": "2026-10-16",
+  "rows": [
+    {
+      "name": "횡성(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "횡성(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "황전(완주)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "황전(순천)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "황간(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "황간(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "화성(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "화성(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "화서(영덕)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "홍천강(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "홍천(양양)",
+      "routeNumber": "60",
+      "routeName": "서울양양선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "홍천(서울)",
+      "routeNumber": "60",
+      "routeName": "서울양양선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "홍성(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "홍성(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "현풍(창원)",
+      "routeNumber": "451",
+      "routeName": "중부내륙지선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "현풍(대구)",
+      "routeNumber": "451",
+      "routeName": "중부내륙지선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "행담도",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함평천지(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함평천지(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함평나비(무안)",
+      "routeNumber": "12",
+      "routeName": "무안광주선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함평나비(광주)",
+      "routeNumber": "12",
+      "routeName": "무안광주선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함양(통영)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함양(대전)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함안(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "함안(부산)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "하남드림",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "포항(포항)",
+      "routeNumber": "65",
+      "routeName": "포항영덕선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "평택",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "평창(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "평창(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "평사(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "통도사(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "칠서(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "칠곡(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "칠곡(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "치악(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "치악(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "충주(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "충주(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "춘향(완주)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "춘향(순천)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "춘천(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "추풍령(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "추풍령(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "청통(대구)",
+      "routeNumber": "20",
+      "routeName": "대구포항선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "청주(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "청송(청주)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "청송(영덕)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "천안호두(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "천안삼거리(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "천등산(평택)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "천등산(제천)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "처인",
+      "routeNumber": "29",
+      "routeName": "세종포천선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "진주(부산)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "진영(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "진영(부산)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "진안마이산(장수)",
+      "routeNumber": "20",
+      "routeName": "익산장수선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "진안마이산(익산)",
+      "routeNumber": "20",
+      "routeName": "익산장수선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "지리산(대구)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "지리산(광주)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "죽전(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "죽암(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "죽암(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "주암(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "주암(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "정읍녹두장군(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "정읍녹두장군(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "장흥정남진",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "장유(서부산)",
+      "routeNumber": "104",
+      "routeName": "남해제2지선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "입장거봉포도(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "익산미륵사지(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "익산미륵사지(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "이천쌀(하남)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "이천(남이)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "이서(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "이서(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "의성(청주)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "의성(영덕)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "음성(하남)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "음성(남이)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "원주(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "원주(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "울주(함양)",
+      "routeNumber": "14",
+      "routeName": "밀양울산선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "울주(울산)",
+      "routeNumber": "14",
+      "routeName": "밀양울산선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "용인(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "용인(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "외동(포항)",
+      "routeNumber": "65",
+      "routeName": "울산포항선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "외동(부산)",
+      "routeNumber": "65",
+      "routeName": "울산포항선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "와촌(포항)",
+      "routeNumber": "20",
+      "routeName": "대구포항선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "옥천만남",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "옥천(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "옥천(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "옥산(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "옥계(속초)",
+      "routeNumber": "65",
+      "routeName": "동해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "오창(하남)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "오창(남이)",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "오수(완주)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "오수(순천)",
+      "routeNumber": "27",
+      "routeName": "순천완주선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "예산(대전)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "예산(당진)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "영천(포항)",
+      "routeNumber": "20",
+      "routeName": "대구포항선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "영천(대구)",
+      "routeNumber": "20",
+      "routeName": "대구포항선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "영산(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "영덕(영덕)",
+      "routeNumber": "65",
+      "routeName": "포항영덕선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "여주(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "여주(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "언양(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "양산(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안성맞춤(평택)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안성맞춤(제천)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안성(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안성(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안산",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안동(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "안동(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "신탄진(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "시흥하늘",
+      "routeNumber": "100",
+      "routeName": "수도권제1순환선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "순천(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "속리산(청주)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "성주(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "성주(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "섬진강(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "섬진강(부산)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "선산(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "선산(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서천(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서천(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서울만남(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서여주(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서여주(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서산(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서산(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "서부산(순천)",
+      "routeNumber": "104",
+      "routeName": "남해제2지선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "산청(통영)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "산청(대전)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "사천(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "사천(부산)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "부여백제(서천)",
+      "routeNumber": "151",
+      "routeName": "서천공주선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "부여백제(공주)",
+      "routeNumber": "151",
+      "routeName": "서천공주선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "부안고려청자(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "부안고려청자(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "보성녹차(영암)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "보성녹차(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "벌곡(대전)",
+      "routeNumber": "251",
+      "routeName": "호남지선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "벌곡(논산)",
+      "routeNumber": "251",
+      "routeName": "호남지선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "백양사(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "백양사(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "밀양영남루(함양)",
+      "routeNumber": "14",
+      "routeName": "함양울산선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "밀양영남루(울산)",
+      "routeNumber": "14",
+      "routeName": "함양울산선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문의청남대(청주)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문의청남대(영덕)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문산(순천)",
+      "routeNumber": "10",
+      "routeName": "남해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문막(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문막(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문경(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "문경(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "매송(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "매송(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "망향(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "마장",
+      "routeNumber": "35",
+      "routeName": "중부선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "동해(삼척)",
+      "routeNumber": "65",
+      "routeName": "동해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "동명(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "동명(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "덕평",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "덕유산(통영)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "덕유산(대전)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "대천(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "대천(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "단양팔경(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "단양팔경(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "논공(대구)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "논공(광주)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "내린천",
+      "routeNumber": "60",
+      "routeName": "서울양양선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "남한강",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "남성주참외(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "남성주참외(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "김해금관가야",
+      "routeNumber": "600",
+      "routeName": "부산외곽순환선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "김천(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "김천(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "김제(전주)",
+      "routeNumber": "20",
+      "routeName": "새만금포항선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "김제(새만금)",
+      "routeNumber": "20",
+      "routeName": "새만금포항선",
+      "direction": "",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "기흥(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "금왕(평택)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "금왕(제천)",
+      "routeNumber": "40",
+      "routeName": "평택제천선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "금산인삼랜드(통영)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "금산인삼랜드(대전)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "금강(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "군위(춘천)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "군위(부산)",
+      "routeNumber": "55",
+      "routeName": "중앙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "군산(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "군산(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "구정(속초)",
+      "routeNumber": "65",
+      "routeName": "동해선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "구정(삼척)",
+      "routeNumber": "65",
+      "routeName": "동해선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "구리(일산)",
+      "routeNumber": "100",
+      "routeName": "수도권제1순환선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "괴산(창원)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "괴산(양평)",
+      "routeNumber": "45",
+      "routeName": "중부내륙선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "공주(대전)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "공주(당진)",
+      "routeNumber": "30",
+      "routeName": "당진영덕선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "곡성(천안)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "곡성(순천)",
+      "routeNumber": "25",
+      "routeName": "호남선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "고창고인돌(서울)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "고창고인돌(목포)",
+      "routeNumber": "15",
+      "routeName": "서해안선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "고성공룡나라(통영)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "고성공룡나라(대전)",
+      "routeNumber": "35",
+      "routeName": "대전통영선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "고삼호수",
+      "routeNumber": "29",
+      "routeName": "세종포천선",
+      "direction": "양방향",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "경주(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "경산(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "건천(서울)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "건천(부산)",
+      "routeNumber": "1",
+      "routeName": "경부선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "거창(대구)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "거창(광주)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "강천산(대구)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "강천산(광주)",
+      "routeNumber": "12",
+      "routeName": "광주대구선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "강릉(인천)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "상행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    },
+    {
+      "name": "강릉(강릉)",
+      "routeNumber": "50",
+      "routeName": "영동선",
+      "direction": "하행",
+      "asOf": "2026-09-17",
+      "provider": "한국도로공사"
+    }
+  ]
+}

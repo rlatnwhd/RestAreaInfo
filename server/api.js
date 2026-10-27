@@ -1,8 +1,18 @@
+import { geocodeArea, shelterPlace, coordinates as geocodedCoordinates } from './geocoding.js'
 import fs from 'node:fs'
-import { basic, menu, brand, oilFacility, statistic, connectRows, text, number } from './normalizers.js'
+import { operationFor, foodHoursFor } from './rest-area-info.js'
+import { officialOverview, linkRelated } from './area-links.js'
+import { facilityInventory } from './facilities.js'
+import { snapshotFacilities } from './facility-snapshots.js'
+import { expandAreaCatalog } from './area-catalog.js'
+import { bothDirectionInfo } from './road-directions.js'
+import { parkingFor, parkingSnapshot } from './parking.js'
+import { basic, menu, brand, oilFacility, statistic, shelter, connectRows, text, number } from './normalizers.js'
 
 export const STAT_PATH = '/15118977/v1/uddi:6b9e8fc2-34cf-4edb-a963-f9830622995d'
-const EX_ENDPOINTS = { basic: 'locationinfo/locationinfoRest', menus: 'restinfo/restBestfoodList', brands: 'restinfo/restBrandList', oilFacilities: 'restinfo/restOilList' }
+export const SHELTER_PATH = '/15043710/v1/uddi:e1b4ec79-63d7-414b-b010-ffbc50e87954'
+export const PARKING_PATH = '/15043716/v1/uddi:9938ee7f-21f7-4c51-9912-812750bf1d0f'
+const EX_ENDPOINTS = { basic: 'locationinfo/locationinfoRest', menus: 'restinfo/restBestfoodList', brands: 'restinfo/restBrandList', oilFacilities: 'restinfo/restOilList', facilities: 'restinfo/restConvList', routeFacilities: 'business/serviceAreaRoute' }
 export class ApiError extends Error { constructor(message, status = 502, code = 'UPSTREAM_ERROR') { super(message); this.status = status; this.code = code } }
 export function settings() {
   const values = { ...process.env }
@@ -56,27 +66,53 @@ export async function exRows(kind, filters = {}) {
   })
 }
 async function areas() {
-  const data = await exRows('basic')
+  const [data, overviewResult] = await Promise.all([exRows('basic'), exRows('routeFacilities').then(value => ({ data: value })).catch(error => ({ error: error.message }))])
   const system = settings().EX_COORDINATE_SYSTEM
-  const rows = data.rows.map((row, index) => basic(row, index, system))
+  const rows = expandAreaCatalog(data.rows.map((row, index) => basic(row, index, system)), overviewResult.data?.rows || [])
   const counts = new Map()
   rows.forEach(row => counts.set(row.code, (counts.get(row.code) || 0) + 1))
-  return { ...data, rows: rows.map(row => ({ ...row, ambiguousCode: !row.code || counts.get(row.code) > 1 })), fields: data.fields, coordinateSystem: system === 'WGS84' ? 'WGS84 (관리자 확인)' : '미검증', directionVerified: false }
+  return { ...data, rows: rows.map(row => {
+    const area = { ...row, ambiguousCode: !row.code || counts.get(row.code) > 1 }
+    const overview = officialOverview(area, overviewResult.data?.rows || [])
+    const directions = [...new Set(overview.map(row => text(row.direction)).filter(Boolean))]
+    const bidirectionalEvidence = bothDirectionInfo(area, rows)
+    return { ...area, operation: operationFor(area), registeredDirections: directions, bidirectional: Boolean(bidirectionalEvidence), bidirectionalEvidence, directions: bidirectionalEvidence ? ['양방향'] : directions, direction: bidirectionalEvidence ? '양방향' : directions.length ? directions.join(' · ') : null, directionSource: bidirectionalEvidence ? bidirectionalEvidence.source : directions.length ? '한국도로공사 노선별·방향별 편의시설' : null, phone: overview.find(row => row.telNo)?.telNo || null, address: overview.find(row => row.svarAddr)?.svarAddr || null }
+  }), count: rows.length, baseCount: data.count, catalogSources: ['locationinfo/locationinfoRest', ...(overviewResult.data ? ['business/serviceAreaRoute'] : [])], fields: data.fields, coordinateSystem: system === 'WGS84' ? 'WGS84 (관리자 확인)' : '미검증', directionVerified: false, directionSourceError: overviewResult.error || null }
 }
 async function details(id) {
   const data = await areas(), area = data.rows.find(row => row.id === id)
   if (!area) throw new ApiError('선택한 휴게소를 찾을 수 없습니다.', 404, 'NOT_FOUND')
   if (area.ambiguousCode) return { area, sources: {}, menus: [], brands: [], oilFacilities: [], visitorStats: null, warning: '식별코드가 누락되거나 중복되어 상세 데이터를 자동 결합하지 않았습니다.' }
-  const sources = {}, result = { area, menus: [], brands: [], oilFacilities: [], visitorStats: null }
-  await Promise.all(Object.entries({ menus: menu, brands: brand, oilFacilities: oilFacility }).map(async ([kind, normalize]) => {
+  const sources = {}, result = { area, parking: null, foodHours: foodHoursFor(area), menus: [], brands: [], oilFacilities: [], facilities: [], visitorStats: null }
+  await Promise.all([Promise.all(Object.entries({ menus: menu, brands: brand, facilities: row => row }).map(async ([kind, normalize]) => {
     try {
       const response = await exRows(kind, { stdRestCd: area.code })
       const joined = connectRows(area, response.rows)
       result[kind] = joined.rows.map(normalize)
       sources[kind] = { status: joined.status, rejected: joined.rejected, fetchedAt: response.fetchedAt, message: joined.rejected ? '코드 또는 명칭 불일치 항목을 제외했습니다.' : '' }
     } catch (error) { sources[kind] = { status: 'error', message: error instanceof ApiError ? error.message : '데이터 처리에 실패했습니다.' } }
-  }))
-  return { ...result, sources, warning: '과거 통계는 공통 식별자가 없어 자동 연결하지 않습니다. 주유소 시설과 휴게소 코드가 다르면 시설을 임의로 연결하지 않습니다.' }
+  })), (async () => {
+    const response = await parkingData()
+    result.parking = parkingFor(area, data.rows, response)
+    sources.parking = { status: response.mode, fetchedAt: response.fetchedAt, asOf: response.asOf }
+  })(), (async () => {
+    try {
+      const response = await exRows('oilFacilities')
+      const joined = linkRelated(area, data.rows, response.rows, 'oil')
+      result.oilFacilities = joined.rows.map(row => ({ ...oilFacility(row), sourceName: row.stdRestNm }))
+      sources.oilFacilities = { ...joined, rows: undefined, fetchedAt: response.fetchedAt }
+    } catch (error) { sources.oilFacilities = { status: 'error', message: error.message } }
+  })(), (async () => {
+    try {
+      const response = await statistics()
+      const joined = linkRelated(area, data.rows, response.rows, 'statistics')
+      result.visitorStats = joined.rows[0] || null
+      sources.statistics = { ...joined, rows: undefined, fetchedAt: response.fetchedAt, datasetDate: response.datasetDate }
+    } catch (error) { sources.statistics = { status: 'error', message: error.message } }
+  })()])
+  const overview = await exRows('routeFacilities').then(response => officialOverview(area, response.rows)).catch(() => [])
+  result.facilityGroups = facilityInventory(result.facilities, overview, snapshotFacilities(area, data.rows))
+  return { ...result, sources }
 }
 async function statistics() {
   const key = settings().ODCLOUD_API_KEY
@@ -93,42 +129,66 @@ async function statistics() {
       count = number(body.totalCount)
       if (count === null) throw new ApiError('통계 전체 건수를 확인할 수 없습니다.', 502, 'SCHEMA_CHANGED')
       rows.push(...body.data)
-      if (rows.length >= count) return { rows: rows.map(statistic), count, fetchedAt: new Date().toISOString(), source: '한국도로공사 / 공공데이터포털', datasetDate: '2024-12-31', linkedToRestAreas: false }
+      if (rows.length >= count) return { rows: rows.map(statistic), count, fetchedAt: new Date().toISOString(), source: '한국도로공사 / 공공데이터포털', datasetDate: '2024-12-31', linkingPolicy: 'unique-route-direction-name' }
       if (!body.data.length) break
     }
     throw new ApiError('통계 페이지 수집을 완료하지 못했습니다.', 502, 'INCOMPLETE_DATA')
   })
 }
-async function mapPoints() {
+async function areaPoint(area) {
   const env=settings(), key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
-  requireKey(key,'카카오 주소 검색')
-  return cached(`map-points:${env.EX_API_KEY}:${key}`,async()=>{
-    const [data,foods]=await Promise.all([areas(),exRows('menus')])
-    const grouped=new Map()
-    for(const row of foods.rows){const code=text(row.stdRestCd);if(!grouped.has(code))grouped.set(code,[]);grouped.get(code).push(row)}
-    const tasks=data.rows.filter(area=>!area.ambiguousCode).map(area=>{
-      const joined=connectRows(area,grouped.get(area.code)||[])
-      const addresses=[...new Set(joined.rows.map(row=>text(row.svarAddr)).filter(Boolean))]
-      return {area,address:addresses.length===1?addresses[0]:null}
-    }).filter(item=>item.address)
-    const rows=[];let cursor=0
+  requireKey(key,'카카오 위치 검색')
+  if(area.ambiguousCode)return null
+  return cached(`map-point:v2:${area.id}:${area.name}:${area.address}:${key}`,async()=>{
+    let addresses=area.address?[area.address]:[]
+    if(!addresses.length){
+      try {
+        const foods=await exRows('menus',{stdRestCd:area.code})
+        const joined=connectRows(area,foods.rows)
+        const values=[...new Set(joined.rows.map(row=>text(row.svarAddr)).filter(Boolean))]
+        if(values.length===1)addresses=values
+      } catch { /* A food-source outage must not prevent a verified place-name lookup. */ }
+    }
+    return geocodeArea(area,addresses,async(kind,query)=>{
+      const url=new URL(`https://dapi.kakao.com/v2/local/search/${kind}.json`)
+      url.search=new URLSearchParams({query,size:'15'}).toString()
+      return fetchJson(url,{Authorization:`KakaoAK ${key}`})
+    })
+  })
+}
+async function mapPoint(id) {
+  const data=await areas(),area=data.rows.find(row=>row.id===id)
+  if(!area)throw new ApiError('선택한 휴게소를 찾을 수 없습니다.',404,'NOT_FOUND')
+  const row=await areaPoint(area)
+  return {row,status:row?'resolved':'unresolved'}
+}
+async function mapPoints() {
+  const env=settings(),key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
+  requireKey(key,'카카오 위치 검색')
+  return cached(`map-points:v2:${env.EX_API_KEY}:${key}`,async()=>{
+    const data=await areas(),rows=[];let cursor=0
     async function worker(){
-      while(cursor<tasks.length){
-        const {area,address}=tasks[cursor++]
-        try{
-          const url=new URL('https://dapi.kakao.com/v2/local/search/address.json')
-          url.search=new URLSearchParams({query:address,size:'5'}).toString()
-          const body=await fetchJson(url,{Authorization:`KakaoAK ${key}`})
-          // Multiple address matches are ambiguous; never choose an arbitrary first result.
-          if(body.documents?.length!==1)continue
-          const doc=body.documents[0],lng=number(doc.x),lat=number(doc.y)
-          if(lng===null||lat===null||lng<124||lng>132||lat<32||lat>40)continue
-          rows.push({id:area.id,coordinates:{lat,lng},address,coordinateSource:'한국도로공사 공식 메뉴 주소 → 카카오 주소 검색'})
-        }catch{/* Unresolved locations remain unknown, without blocking other points. */}
+      while(cursor<data.rows.length){
+        const area=data.rows[cursor++]
+        try{const point=await areaPoint(area);if(point)rows.push(point)}catch{}
       }
     }
     await Promise.all(Array.from({length:6},()=>worker()))
-    return {rows,count:rows.length,total:data.rows.length,source:'한국도로공사 주소 / 카카오 Local',fetchedAt:new Date().toISOString(),precision:'주소 기반 위치이며 휴게소 진입로 좌표가 아닙니다.'}
+    return {rows,count:rows.length,total:data.rows.length,source:'한국도로공사 주소 / 카카오 Local',fetchedAt:new Date().toISOString(),precision:'주소 또는 휴게소명·방향으로 확인한 위치이며 진입로 좌표가 아닙니다.'}
+  })
+}
+async function shelterPoint(id) {
+  const data=await shelters(),area=data.rows.find(row=>row.id===id)
+  if(!area)throw new ApiError('선택한 졸음쉼터를 찾을 수 없습니다.',404,'NOT_FOUND')
+  const env=settings(),key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
+  requireKey(key,'카카오 위치 검색')
+  return cached(`shelter-point:${id}:${key}`,async()=>{
+    const url=new URL('https://dapi.kakao.com/v2/local/search/keyword.json')
+    url.search=new URLSearchParams({query:`${area.name.replace(/졸음쉼터/g,'')} 졸음쉼터 ${area.direction.replace(/방향$/,'')}방향`,size:'15'}).toString()
+    const body=await fetchJson(url,{Authorization:`KakaoAK ${key}`})
+    const place=shelterPlace(area,body.documents||[]),coordinates=geocodedCoordinates(place)
+    const row=coordinates?{id:area.id,name:place.place_name,coordinates,address:place.road_address_name||place.address_name,placeId:place.id,coordinateSource:'카카오 장소 검색 · 졸음쉼터명·방향 일치'}:null
+    return {row,status:row?'resolved':'unresolved'}
   })
 }
 async function places(query) {
@@ -169,16 +229,75 @@ async function route(search) {
   }
   return { distance: number(result.summary?.distance), duration: number(result.summary?.duration), paths, source: '카카오모빌리티', restAreas: [], matchingStatus: 'unverified', matchingMessage: '휴게소 진입 방향·도로 연결 정보가 없어 경로상 휴게소를 아직 확정할 수 없습니다. 아래 목록은 전체 휴게소입니다.' }
 }
+async function parkingData() {
+  const key = settings().PARKING_API_KEY || settings().ODCLOUD_API_KEY
+  if (!key) return { ...parkingSnapshot, count: parkingSnapshot.rows.length, mode: 'snapshot' }
+  return cached(`parking:${key}`, async () => {
+    try {
+      let decoded = key
+      try { decoded = decodeURIComponent(key) } catch { /* already decoded */ }
+      const rows = []
+      for (let page = 1; page <= 100; page++) {
+        const url = new URL(`https://api.odcloud.kr/api${PARKING_PATH}`)
+        url.search = new URLSearchParams({ serviceKey: decoded, page: String(page), perPage: '1000', returnType: 'JSON' }).toString()
+        const body = await fetchJson(url), count = number(body.totalCount)
+        const required = ['노선','휴게소명','합계','대형','소형','장애인']
+        if (!Array.isArray(body.data) || count === null || body.data.some(row => required.some(field => !(field in row)))) throw new ApiError('주차장 응답 형식이 변경되었습니다.')
+        rows.push(...body.data)
+        if (rows.length >= count) return { rows, count, source: parkingSnapshot.source, sourceUrl: parkingSnapshot.sourceUrl, asOf: '2026-07-31', fetchedAt: new Date().toISOString(), mode: 'api' }
+        if (!body.data.length) break
+      }
+      throw new ApiError('주차장 자료 수집을 완료하지 못했습니다.')
+    } catch { return { ...parkingSnapshot, count: parkingSnapshot.rows.length, mode: 'snapshot', apiAvailable: false } }
+  })
+}
+async function shelters() {
+  const key = settings().SHELTER_API_KEY || settings().ODCLOUD_API_KEY
+  requireKey(key, '졸음쉼터')
+  return cached(`shelters:${key}`, async () => {
+    const rows = []
+    for (let page = 1; page <= 100; page++) {
+      let decoded = key
+      try { decoded = decodeURIComponent(key) } catch { /* already decoded */ }
+      const url = new URL(`https://api.odcloud.kr/api${SHELTER_PATH}`)
+      url.search = new URLSearchParams({ serviceKey: decoded, page: String(page), perPage: '1000', returnType: 'JSON' }).toString()
+      const body = await fetchJson(url)
+      const count = number(body.totalCount)
+      if (!Array.isArray(body.data) || count === null) throw new ApiError('졸음쉼터 응답 형식을 확인할 수 없습니다.', 502, 'SCHEMA_CHANGED')
+      const required = ['번호','명칭','노선','방향','이정','설치년도']
+      if (body.data.some(row => required.some(field => !(field in row)))) throw new ApiError('졸음쉼터 응답 필드가 변경되었습니다.', 502, 'SCHEMA_CHANGED')
+      rows.push(...body.data)
+      if (rows.length >= count) return { rows: rows.map(shelter), count, datasetDate: '2026-08-01', fetchedAt: new Date().toISOString(), source: '한국도로공사 졸음쉼터 설치현황', sourceUrl: 'https://www.data.go.kr/data/15043710/fileData.do' }
+      if (!body.data.length) break
+    }
+    throw new ApiError('졸음쉼터 전체 자료를 수집하지 못했습니다.', 502, 'INCOMPLETE_DATA')
+  })
+}
 export async function api(path, search) {
+  if (path === '/api/parking') return parkingData()
   if (path === '/api/status') {
     const env = settings()
     return { publicMapKey: env.KAKAO_MAP_JS_KEY || env.VITE_KAKAO_MAP_APP_KEY || '', sources: { ex: Boolean(env.EX_API_KEY), statistics: Boolean(env.ODCLOUD_API_KEY), places: Boolean(env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY), route: Boolean(env.ROUTE_API_KEY), map: Boolean(env.KAKAO_MAP_JS_KEY || env.VITE_KAKAO_MAP_APP_KEY) }, coordinateVerified: env.EX_COORDINATE_SYSTEM === 'WGS84', directionVerified: false }
   }
   if (path === '/api/rest-areas') return areas()
   if (path === '/api/rest-area') return details(search.get('id'))
-  if (path === '/api/menus') { const data = await exRows('menus'); return { ...data, rows: data.rows.map(menu) } }
+  if (path === '/api/menus') {
+    const id = search.get('id')
+    if (id) {
+      const catalogue = await areas(), area = catalogue.rows.find(row => row.id === id)
+      if (!area) throw new ApiError('선택한 휴게소를 찾을 수 없습니다.', 404, 'NOT_FOUND')
+      if (area.ambiguousCode) throw new ApiError('휴게소 식별코드를 확인할 수 없습니다.', 422, 'AMBIGUOUS_AREA')
+      const data = await exRows('menus', { stdRestCd: area.code })
+      const joined = connectRows(area, data.rows), rows = joined.rows.map(menu)
+      return { ...data, rows, count: rows.length, area }
+    }
+    const data = await exRows('menus'); return { ...data, rows: data.rows.map(menu) }
+  }
   if (path === '/api/oil-facilities') { const data = await exRows('oilFacilities'); return { ...data, rows: data.rows.map(oilFacility) } }
   if (path === '/api/statistics') return statistics()
+  if (path === '/api/shelters') return shelters()
+  if (path === '/api/shelter-point') return shelterPoint(search.get('id'))
+  if (path === '/api/map-point') return mapPoint(search.get('id'))
   if (path === '/api/map-points') return mapPoints()
   if (path === '/api/places') return places(search.get('query') || '')
   if (path === '/api/route') return route(search)
