@@ -1,3 +1,4 @@
+import { journeyHighways, sameRoad } from '../src/utils/journey.js'
 import { geocodeArea, shelterPlace, coordinates as geocodedCoordinates } from './geocoding.js'
 import fs from 'node:fs'
 import { operationFor, foodHoursFor } from './rest-area-info.js'
@@ -215,6 +216,7 @@ async function route(search) {
   }
   const url = new URL('https://apis-navi.kakaomobility.com/v1/directions')
   url.search = new URLSearchParams({ origin: point(search.get('origin')), destination: point(search.get('destination')), summary: 'false', road_details: 'true', alternatives: 'false', priority: 'RECOMMEND' }).toString()
+  return cached(`directions:${key}:${url.search}`,async()=>{
   const body = await fetchJson(url, { Authorization: `KakaoAK ${key}` })
   const result = body.routes?.[0]
   if (!result || result.result_code !== 0) throw new ApiError('자동차 이동 경로를 찾을 수 없습니다. 다른 장소를 선택해 주세요.', 422, 'ROUTE_NOT_FOUND')
@@ -227,7 +229,31 @@ async function route(search) {
     }
     if (points.length) paths.push({ name: text(road.name), points })
   }
-  return { distance: number(result.summary?.distance), duration: number(result.summary?.duration), paths, source: '카카오모빌리티', restAreas: [], matchingStatus: 'unverified', matchingMessage: '휴게소 진입 방향·도로 연결 정보가 없어 경로상 휴게소를 아직 확정할 수 없습니다. 아래 목록은 전체 휴게소입니다.' }
+  return { distance: number(result.summary?.distance), duration: number(result.summary?.duration), paths, highways:journeyHighways(result.sections), source:'카카오모빌리티', matchingMessage:'휴게소·졸음쉼터는 경로 주변 위치와 진행방향을 대조한 참고 정보입니다. 실제 진입은 현장 안내와 길찾기를 확인하세요.' }
+  })
+}
+async function journeyPoints(search) {
+  const routeData=await route(search),env=settings()
+  const cacheKey=`journey-points:${search.get('origin')}:${search.get('destination')}:${env.EX_API_KEY}:${env.KAKAO_REST_API_KEY||env.ROUTE_API_KEY}`
+  const result=await cached(cacheKey,async()=>{
+    const data=await areas()
+    let shelterRows=[],shelterError=''
+    try{shelterRows=(await shelters()).rows}catch{ shelterError='졸음쉼터 자료를 불러오지 못했습니다.' }
+    const relevant=area=>(routeData.highways||[]).some(road=>sameRoad(road.name,area.routeName))
+    const tasks=[...data.rows.filter(relevant).map(area=>({...area,kind:'rest'})),...shelterRows.filter(relevant).map(area=>({...area,kind:'shelter'}))]
+    const points=[];let cursor=0,failed=0
+    async function worker(){while(cursor<tasks.length){
+      const area=tasks[cursor++]
+      try{
+        const point=area.coordinates?area:area.kind==='rest'?await areaPoint(area):(await shelterPoint(area.id)).row
+        points.push({...area,coordinates:point?.coordinates||null,address:point?.address||area.address})
+      }catch{failed++;points.push({...area,coordinates:null})}
+    }}
+    await Promise.all(Array.from({length:4},worker))
+    return {points,failed,shelterError}
+  })
+  if(result.failed||result.shelterError)cache.delete(cacheKey)
+  return result
 }
 async function parkingData() {
   const key = settings().PARKING_API_KEY || settings().ODCLOUD_API_KEY
@@ -300,6 +326,7 @@ export async function api(path, search) {
   if (path === '/api/map-point') return mapPoint(search.get('id'))
   if (path === '/api/map-points') return mapPoints()
   if (path === '/api/places') return places(search.get('query') || '')
+  if (path === '/api/journey-points') return journeyPoints(search)
   if (path === '/api/route') return route(search)
   throw new ApiError('요청한 API가 없습니다.', 404, 'NOT_FOUND')
 }

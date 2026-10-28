@@ -1,3 +1,4 @@
+import shelterIcon from '../../icons/shelter-pin.svg'
 import { LocateFixed, ExternalLink, Camera, Map as MapIcon } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { Pin, Layers, Info } from './Icons'
@@ -62,9 +63,10 @@ export default function LiveMap({ apiKey, route, areas, onSelect, selectedId, sh
     }
     for (const area of areas.filter(area => area.coordinates)) {
       const point = new maps.LatLng(area.coordinates.lat, area.coordinates.lng)
+      const isShelter=area.kind==='shelter'
       const width = area.id === selectedId ? 56 : 48
       const height = area.id === selectedId ? 74 : 64
-      const image = new maps.MarkerImage(restAreaPin, new maps.Size(width, height), { offset: new maps.Point(width / 2, height) })
+      const image = new maps.MarkerImage(isShelter?shelterIcon:restAreaPin, new maps.Size(width, height), { offset: new maps.Point(width / 2, height) })
       const marker = new maps.Marker({ map, position: point, title: area.name, image, zIndex: area.id === selectedId ? 10 : 1 })
       maps.event.addListener(marker, 'click', () => onSelect?.(area))
       objects.current.push(marker)
@@ -99,7 +101,7 @@ export default function LiveMap({ apiKey, route, areas, onSelect, selectedId, sh
     }catch{clearTimeout(timer);setStreetStatus('거리뷰를 연결하지 못했습니다. 잠시 후 다시 시도해 주세요.')}
     return()=>{active=false;clearTimeout(timer)}
   },[streetView,ready,target?.id,target?.coordinates?.lat,target?.coordinates?.lng])
-  return <section className={`map-pane ${locationOnly?'location-only':''} ${streetView?'is-roadview':''}`} aria-label="휴게소 위치 지도">{!locationOnly&&<div className="map-toolbar"><span><Layers size={16} /> {title}</span><span className={`small-badge ${ready ? 'success' : ''}`}>{ready ? `Kakao Maps · 위치 ${areas.filter(area=>area.coordinates).length}곳` : '지도 연결 대기'}</span></div>}<div ref={host} className="map-canvas" />{!ready && <div className="map-state"><div className="map-grid" aria-hidden="true" /><div className="map-message"><span className="map-message-icon"><Pin size={31} /></span><h3>{error ? '지도 연결을 확인해 주세요' : apiKey ? '지도를 불러오는 중입니다' : '여행의 경로를 한눈에'}</h3><p>{error || (apiKey ? '잠시만 기다려 주세요.' : '지도 서비스 연결 후 실제 자동차 경로와\n공식 주소에서 확인한 휴게소 위치를 표시합니다.')}</p>{error && <button className="button secondary" onClick={() => setRetry(value => value + 1)}>다시 연결</button>}<span className="map-state-caption"><Info size={13} /> 실제 지도 연결 전 안내 화면</span></div></div>}{!locationOnly&&<div className="map-legend">{!locationOnly&&<span><i /> 자동차 이동 경로</span>}<span><img src={restAreaIcon} width="18" height="18" alt="" /> 휴게소 · 주소 기반 위치</span></div>}{locationOnly&&<>
+  return <section className={`map-pane ${locationOnly?'location-only':''} ${streetView?'is-roadview':''}`} aria-label="휴게소 위치 지도">{!locationOnly&&<div className="map-toolbar"><span><Layers size={16} /> {title}</span><span className={`small-badge ${ready ? 'success' : ''}`}>{ready ? `Kakao Maps · 위치 ${areas.filter(area=>area.coordinates).length}곳` : '지도 연결 대기'}</span></div>}<div ref={host} className="map-canvas" />{!ready && <div className="map-state"><div className="map-grid" aria-hidden="true" /><div className="map-message"><span className="map-message-icon"><Pin size={31} /></span><h3>{error ? '지도 연결을 확인해 주세요' : apiKey ? '지도를 불러오는 중입니다' : '여행의 경로를 한눈에'}</h3><p>{error || (apiKey ? '잠시만 기다려 주세요.' : '지도 서비스 연결 후 실제 자동차 경로와\n공식 주소에서 확인한 휴게소 위치를 표시합니다.')}</p>{error && <button className="button secondary" onClick={() => setRetry(value => value + 1)}>다시 연결</button>}<span className="map-state-caption"><Info size={13} /> 실제 지도 연결 전 안내 화면</span></div></div>}{!locationOnly&&<div className="map-legend">{!locationOnly&&<span><i /> 자동차 이동 경로</span>}<span><img src={restAreaIcon} width="18" height="18" alt="" /> 휴게소 · 주소 기반 위치</span>{areas.some(area=>area.kind==='shelter')&&<span><img src={shelterIcon} width="18" height="18" alt=""/>졸음쉼터</span>}</div>}{locationOnly&&<>
       {streetView&&<div className="location-roadview"><div ref={roadviewHost} className="location-roadview-canvas" aria-label={`${target?.name||'휴게소'} 거리뷰`}/>{streetStatus&&<p className="roadview-status" role="status">{streetStatus}</p>}</div>}
       <div className="location-map-actions">
         <button type="button" onClick={resetPosition} disabled={!ready}><LocateFixed size={15}/>원래 위치</button>
