@@ -1,3 +1,4 @@
+import { storedLocation, saveLocation, flushLocations } from './location-cache.js'
 import { journeyHighways, sameRoad } from '../src/utils/journey.js'
 import { geocodeArea, shelterPlace, coordinates as geocodedCoordinates } from './geocoding.js'
 import fs from 'node:fs'
@@ -40,31 +41,35 @@ async function fetchJson(url, headers = {}) {
   try { return await response.json() } catch { throw new ApiError('제공기관 응답이 예상한 JSON 형식이 아닙니다.', 502, 'INVALID_RESPONSE') }
 }
 function requireKey(key, label) { if (!key?.trim()) throw new ApiError(`${label} 인증키가 아직 설정되지 않았어요. 관리자 설정 후 이용할 수 있습니다.`, 503, 'MISSING_KEY') }
-export async function exRows(kind, filters = {}) {
-  const env = settings()
-  requireKey(env.EX_API_KEY, '한국도로공사')
-  return cached(JSON.stringify([kind, filters, env.EX_API_KEY]), async () => {
-    const records = [], fetchedAt = new Date().toISOString()
-    let pages = 1, expected = null
-    for (let page = 1; page <= pages; page++) {
-      const url = new URL(`https://data.ex.co.kr/openapi/${EX_ENDPOINTS[kind]}`)
-      url.search = new URLSearchParams({ key: env.EX_API_KEY, type: 'json', ...filters, ...(kind !== 'oilFacilities' ? { pageNo: String(page), numOfRows: '1000' } : {}) }).toString()
-      const body = await fetchJson(url)
-      if (text(body.code).toUpperCase() === 'ERROR' || body.list === null) throw new ApiError('한국도로공사 API가 요청을 거절했습니다. 인증키와 서비스 권한을 확인해 주세요.', 502, 'EX_REJECTED')
-      if (!Array.isArray(body.list)) throw new ApiError('한국도로공사 응답의 list 필드를 확인할 수 없습니다.', 502, 'SCHEMA_CHANGED')
-      if (page === 1) {
-        expected = number(body.count)
-        const pageSize = number(body.pageSize)
-        const rowsPerPage = number(body.numOfRows)
-        pages = kind === 'oilFacilities' ? 1 : pageSize || (expected && rowsPerPage ? Math.ceil(expected / rowsPerPage) : 1)
-        if (pages > 100) throw new ApiError('응답의 페이지 수가 수집 한도를 초과했습니다.', 502, 'PAGINATION_LIMIT')
-      }
-      records.push(...body.list)
-      if (page < pages && !body.list.length) throw new ApiError('페이지 응답이 비어 있어 전체 자료를 확인할 수 없습니다.', 502, 'INCOMPLETE_DATA')
-    }
-    if (expected !== null && expected > records.length) throw new ApiError('전체 건수와 수집 건수가 다릅니다. 페이지 설정 검증이 필요합니다.', 502, 'INCOMPLETE_DATA')
-    return { rows: records, fetchedAt, source: '한국도로공사', endpoint: EX_ENDPOINTS[kind], count: records.length, fields: records[0] ? Object.keys(records[0]) : [] }
+async function exPage(kind,filters,page) {
+  const env=settings();requireKey(env.EX_API_KEY,'한국도로공사')
+  return cached(JSON.stringify(['ex-page',kind,filters,page,env.EX_API_KEY]),async()=>{
+    const url=new URL(`https://data.ex.co.kr/openapi/${EX_ENDPOINTS[kind]}`)
+    url.search=new URLSearchParams({key:env.EX_API_KEY,type:'json',...filters,...(kind!=='oilFacilities'?{pageNo:String(page),numOfRows:'1000'}:{})}).toString()
+    const body=await fetchJson(url)
+    if(text(body.code).toUpperCase()==='ERROR'||body.list===null)throw new ApiError('한국도로공사 API가 요청을 거절했습니다. 인증키와 서비스 권한을 확인해 주세요.',502,'EX_REJECTED')
+    if(!Array.isArray(body.list))throw new ApiError('한국도로공사 응답 필드를 확인할 수 없습니다.',502,'SCHEMA_CHANGED')
+    return body
   })
+}
+export async function exRows(kind,filters={}) {
+  const env=settings();requireKey(env.EX_API_KEY,'한국도로공사')
+  return cached(JSON.stringify([kind,filters,env.EX_API_KEY]),async()=>{
+    const first=await exPage(kind,filters,1),expected=number(first.count),rowsPerPage=number(first.numOfRows)||first.list.length
+    const pages=kind==='oilFacilities'?1:number(first.pageSize)||number(first.pageSizes)||(expected&&rowsPerPage?Math.ceil(expected/rowsPerPage):1)
+    if(pages>100)throw new ApiError('응답의 페이지 수가 수집 한도를 초과했습니다.',502,'PAGINATION_LIMIT')
+    const lists=[first.list];let next=2
+    async function worker(){while(next<=pages){const page=next++,body=await exPage(kind,filters,page);if(!body.list.length)throw new ApiError('페이지 응답이 비어 있어 전체 자료를 확인할 수 없습니다.',502,'INCOMPLETE_DATA');lists[page-1]=body.list}}
+    await Promise.all(Array.from({length:Math.min(4,pages-1)},worker))
+    const records=lists.flat()
+    if(expected!==null&&expected>records.length)throw new ApiError('전체 건수와 수집 건수가 다릅니다. 페이지 설정 검증이 필요합니다.',502,'INCOMPLETE_DATA')
+    return {rows:records,fetchedAt:new Date().toISOString(),source:'한국도로공사',endpoint:EX_ENDPOINTS[kind],count:records.length,fields:records[0]?Object.keys(records[0]):[]}
+  })
+}
+async function menuCount() {
+  const first=await exPage('menus',{},1),count=number(first.count)
+  if(count===null)throw new ApiError('음식 메뉴 총건수를 확인할 수 없습니다.',502,'SCHEMA_CHANGED')
+  return {count,fetchedAt:new Date().toISOString(),source:'한국도로공사'}
 }
 async function areas() {
   const [data, overviewResult] = await Promise.all([exRows('basic'), exRows('routeFacilities').then(value => ({ data: value })).catch(error => ({ error: error.message }))])
@@ -140,6 +145,7 @@ async function areaPoint(area) {
   const env=settings(), key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
   requireKey(key,'카카오 위치 검색')
   if(area.ambiguousCode)return null
+  const stored=storedLocation('rest',area);if(stored)return stored
   return cached(`map-point:v2:${area.id}:${area.name}:${area.address}:${key}`,async()=>{
     let addresses=area.address?[area.address]:[]
     if(!addresses.length){
@@ -150,11 +156,12 @@ async function areaPoint(area) {
         if(values.length===1)addresses=values
       } catch { /* A food-source outage must not prevent a verified place-name lookup. */ }
     }
-    return geocodeArea(area,addresses,async(kind,query)=>{
+    const point=await geocodeArea(area,addresses,async(kind,query)=>{
       const url=new URL(`https://dapi.kakao.com/v2/local/search/${kind}.json`)
       url.search=new URLSearchParams({query,size:'15'}).toString()
       return fetchJson(url,{Authorization:`KakaoAK ${key}`})
     })
+    saveLocation('rest',area,point);return point
   })
 }
 async function mapPoint(id) {
@@ -162,6 +169,10 @@ async function mapPoint(id) {
   if(!area)throw new ApiError('선택한 휴게소를 찾을 수 없습니다.',404,'NOT_FOUND')
   const row=await areaPoint(area)
   return {row,status:row?'resolved':'unresolved'}
+}
+async function cachedMapPoints() {
+  const data=await areas(),rows=data.rows.filter(area=>!area.ambiguousCode).map(area=>storedLocation('rest',area)).filter(Boolean)
+  return {rows,count:rows.length,total:data.rows.length}
 }
 async function mapPoints() {
   const env=settings(),key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
@@ -174,7 +185,7 @@ async function mapPoints() {
         try{const point=await areaPoint(area);if(point)rows.push(point)}catch{}
       }
     }
-    await Promise.all(Array.from({length:6},()=>worker()))
+    await Promise.all(Array.from({length:6},()=>worker()));flushLocations()
     return {rows,count:rows.length,total:data.rows.length,source:'한국도로공사 주소 / 카카오 Local',fetchedAt:new Date().toISOString(),precision:'주소 또는 휴게소명·방향으로 확인한 위치이며 진입로 좌표가 아닙니다.'}
   })
 }
@@ -183,12 +194,14 @@ async function shelterPoint(id) {
   if(!area)throw new ApiError('선택한 졸음쉼터를 찾을 수 없습니다.',404,'NOT_FOUND')
   const env=settings(),key=env.KAKAO_REST_API_KEY || env.ROUTE_API_KEY
   requireKey(key,'카카오 위치 검색')
+  const stored=storedLocation('shelter',area);if(stored)return {row:stored,status:'resolved'}
   return cached(`shelter-point:${id}:${key}`,async()=>{
     const url=new URL('https://dapi.kakao.com/v2/local/search/keyword.json')
     url.search=new URLSearchParams({query:`${area.name.replace(/졸음쉼터/g,'')} 졸음쉼터 ${area.direction.replace(/방향$/,'')}방향`,size:'15'}).toString()
     const body=await fetchJson(url,{Authorization:`KakaoAK ${key}`})
     const place=shelterPlace(area,body.documents||[]),coordinates=geocodedCoordinates(place)
     const row=coordinates?{id:area.id,name:place.place_name,coordinates,address:place.road_address_name||place.address_name,placeId:place.id,coordinateSource:'카카오 장소 검색 · 졸음쉼터명·방향 일치'}:null
+    saveLocation('shelter',area,row)
     return {row,status:row?'resolved':'unresolved'}
   })
 }
@@ -307,6 +320,7 @@ export async function api(path, search) {
   }
   if (path === '/api/rest-areas') return areas()
   if (path === '/api/rest-area') return details(search.get('id'))
+  if (path === '/api/menu-count') return menuCount()
   if (path === '/api/menus') {
     const id = search.get('id')
     if (id) {
@@ -324,6 +338,7 @@ export async function api(path, search) {
   if (path === '/api/shelters') return shelters()
   if (path === '/api/shelter-point') return shelterPoint(search.get('id'))
   if (path === '/api/map-point') return mapPoint(search.get('id'))
+  if (path === '/api/map-points-cached') return cachedMapPoints()
   if (path === '/api/map-points') return mapPoints()
   if (path === '/api/places') return places(search.get('query') || '')
   if (path === '/api/journey-points') return journeyPoints(search)

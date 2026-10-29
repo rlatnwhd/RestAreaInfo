@@ -6,7 +6,7 @@ import {roadOptions,shelterRoadOption} from '../utils/roadRoutes'
 import RoadBadge from './RoadBadge'
 import HighwayIcon from './HighwayIcon'
 import {Chevron,Refresh} from './Icons'
-export default function RouteJourney({route,data,catalogueError,onCatalogueRetry,onSelect,onShelter,onMatches}) {
+export default function RouteJourney({route,data,catalogueError,onCatalogueRetry,onSelect,onShelter,onMatches,onLoadingChange}) {
  const [kind,setKind]=useState('all')
  const [points,setPoints]=useState([]),[loading,setLoading]=useState(true),[issue,setIssue]=useState(''),[retry,setRetry]=useState(0)
  useEffect(()=>{
@@ -21,6 +21,7 @@ export default function RouteJourney({route,data,catalogueError,onCatalogueRetry
   load().catch(error=>{if(!controller.signal.aborted){setIssue(error.message);setLoading(false)}})
   return()=>controller.abort()
  },[route,data,retry,catalogueError])
+ useEffect(()=>{onLoadingChange?.(loading)},[loading,onLoadingChange])
  const groups=useMemo(()=>journeyGroups(route,points.filter(row=>row.kind==='rest'),points.filter(row=>row.kind==='shelter')),[route,points])
  useEffect(()=>{onMatches?.(groups.flatMap(group=>group.stops))},[groups,onMatches])
  return <section className="journey-panel" aria-label="경로별 휴게소와 졸음쉼터"><header><div><h2>이번 경로의 쉼터</h2><p>고속도로 이용 순서 · 진행방향 기준</p></div><button type="button" className="text-button" disabled={loading} onClick={()=>data?setRetry(value=>value+1):onCatalogueRetry?.()} aria-label="경로 쉼터 다시 조회"><Refresh size={15}/></button></header>

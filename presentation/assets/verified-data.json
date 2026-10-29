@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-10-28",
+  "areaCount": 243,
+  "menuCount": 7259,
+  "shelterCount": 253,
+  "example": {
+    "id": "000003:002:A00002:1",
+    "name": "죽전(서울)휴게소",
+    "routeName": "경부선",
+    "menus": [
+      {
+        "name": "부산어묵우동",
+        "price": 7500
+      },
+      {
+        "name": "가락속풀이생라면",
+        "price": 6500
+      }
+    ],
+    "parking": {
+      "total": 223,
+      "large": 68,
+      "small": 147,
+      "accessible": 8,
+      "sourceName": "죽전(서울)",
+      "source": "한국도로공사 휴게소 주차장 현황",
+      "sourceUrl": "https://www.data.go.kr/data/15043716/fileData.do",
+      "asOf": "2026-07-31",
+      "checkedAt": "2026-10-28T12:46:01.211Z",
+      "mode": "api",
+      "matching": "route-direction-name"
+    }
+  }
+}

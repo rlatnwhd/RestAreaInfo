@@ -7,3 +7,9 @@ dist/
 .npm-cache/
 artifacts/
 .docx-tools/
+
+server/cache/
+
+.cache/
+
+.pptx-tools/
